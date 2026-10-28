@@ -1,0 +1,48 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string; reading?: boolean }
+const { title, description = 'Publications, made for reading. A carefully preserved library of reports in accessible web form.', reading = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <title>{title} · PDFtoWeb</title>
+    <script is:inline>
+      try { const theme = localStorage.getItem('pdftoweb-theme') || 'system'; document.documentElement.dataset.theme = theme; } catch {}
+    </script>
+  </head>
+  <body class:list={[{ reading }]}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-pagefind-ignore>
+      <a class="wordmark" href={`${base}/`} aria-label="PDFtoWeb library"><span class="mark" aria-hidden="true">↳</span> PDF<span>to</span>Web</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href={`${base}/`} class="library-link">Library</a>
+        <a href={`${base}/search/`} class="search-link" aria-label="Search the library"><svg viewBox="0 0 24 24" aria-hidden="true" width="19" height="19"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.6"/></svg><span>Search</span></a>
+        <label class="theme-control"><span class="sr-only">Color theme</span><select id="theme" aria-label="Color theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      </nav>
+    </header>
+    <slot />
+    <footer class="site-footer" data-pagefind-ignore>
+      <a class="footer-brand" href={`${base}/`}>PDFtoWeb</a>
+      <p>Independent reading editions. Original publications remain the authoritative sources.</p>
+      <a href="https://github.com/pete-wai/pdftoweb">Source &amp; conversion notes <span aria-hidden="true">↗</span></a>
+    </footer>
+    <script>
+      const select = document.querySelector<HTMLSelectElement>('#theme');
+      if (select) {
+        select.value = document.documentElement.dataset.theme || 'system';
+        select.addEventListener('change', () => {
+          document.documentElement.dataset.theme = select.value;
+          try { localStorage.setItem('pdftoweb-theme', select.value); } catch {}
+        });
+      }
+    </script>
+  </body>
+</html>

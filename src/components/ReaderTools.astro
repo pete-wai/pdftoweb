@@ -1,0 +1,73 @@
+<dialog id="figure-dialog" class="figure-dialog" aria-labelledby="figure-dialog-title" data-pagefind-ignore>
+  <div class="dialog-toolbar"><h2 id="figure-dialog-title">Expanded view</h2><div class="dialog-controls"><button type="button" id="zoom-out" aria-label="Zoom out">−</button><button type="button" id="zoom-reset">100%</button><button type="button" id="zoom-in" aria-label="Zoom in">+</button><button type="button" id="close-figure" class="close-dialog">Close <span aria-hidden="true">×</span></button></div></div>
+  <div class="dialog-scroll" tabindex="0" aria-label="Expanded figure; scroll to explore"><div id="figure-content"></div></div>
+</dialog>
+<script>
+  const dialog = document.querySelector<HTMLDialogElement>('#figure-dialog');
+  const content = document.querySelector<HTMLElement>('#figure-content');
+  const title = document.querySelector<HTMLElement>('#figure-dialog-title');
+  let zoom = 1;
+  let opener: HTMLElement | null = null;
+  const setZoom = (next: number) => {
+    zoom = Math.max(.75, Math.min(3, next));
+    if (content) { content.style.fontSize = `${zoom}rem`; content.style.setProperty('--figure-zoom', String(zoom)); }
+    const reset = document.querySelector('#zoom-reset');
+    if (reset) reset.textContent = `${Math.round(zoom * 100)}%`;
+  };
+  document.querySelectorAll<HTMLElement>('.report-prose table, .report-prose img').forEach((figure) => {
+    const isTable = figure.tagName === 'TABLE';
+    if (isTable && !figure.parentElement?.classList.contains('table-scroll')) {
+      const scroll = document.createElement('div');
+      scroll.className = 'table-scroll';
+      scroll.tabIndex = 0;
+      scroll.setAttribute('role', 'region');
+      scroll.setAttribute('aria-label', `${figure.querySelector('caption')?.textContent || 'Report table'}; scroll horizontally if needed`);
+      figure.before(scroll); scroll.append(figure);
+    }
+    const button = document.createElement('button');
+    button.className = 'expand-figure'; button.type = 'button';
+    button.setAttribute('data-pagefind-ignore', '');
+    button.textContent = isTable ? 'Expand table ↗' : 'Expand image ↗';
+    (isTable ? figure.parentElement! : figure).after(button);
+    button.addEventListener('click', () => {
+      if (!dialog || !content || !title) return;
+      opener = button;
+      const clone = figure.cloneNode(true) as HTMLElement;
+      const idMap = new Map<string, string>();
+      [clone, ...clone.querySelectorAll<HTMLElement>('[id]')].forEach((el) => {
+        if (el.id) { idMap.set(el.id, `dialog-${el.id}`); el.id = `dialog-${el.id}`; }
+      });
+      clone.querySelectorAll('[headers], [aria-labelledby], [aria-describedby]').forEach((el) => {
+        ['headers', 'aria-labelledby', 'aria-describedby'].forEach((attribute) => {
+          const value = el.getAttribute(attribute);
+          if (value) el.setAttribute(attribute, value.split(/\s+/).map((id) => idMap.get(id) || id).join(' '));
+        });
+      });
+      clone.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {
+        const target = link.getAttribute('href')!.slice(1);
+        if (idMap.has(target)) link.href = `#${idMap.get(target)}`;
+        else link.addEventListener('click', () => dialog.close());
+      });
+      content.replaceChildren(clone);
+      title.textContent = isTable ? 'Expanded table' : (figure.getAttribute('alt') || 'Expanded image');
+      setZoom(1); dialog.showModal();
+    });
+  });
+  document.querySelector('#zoom-in')?.addEventListener('click', () => setZoom(zoom + .25));
+  document.querySelector('#zoom-out')?.addEventListener('click', () => setZoom(zoom - .25));
+  document.querySelector('#zoom-reset')?.addEventListener('click', () => setZoom(1));
+  document.querySelector('#close-figure')?.addEventListener('click', () => dialog?.close());
+  dialog?.addEventListener('close', () => opener?.focus());
+  dialog?.addEventListener('click', (event) => { if (event.target === dialog) dialog.close(); });
+  document.querySelectorAll('.mobile-contents a').forEach((link) => link.addEventListener('click', () => document.querySelector('.mobile-contents')?.removeAttribute('open')));
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries.filter((entry) => entry.isIntersecting);
+      if (!visible.length) return;
+      document.querySelectorAll('.contents-sidebar a[aria-current]').forEach((a) => a.removeAttribute('aria-current'));
+      const link = document.querySelector(`.contents-sidebar a[href="#${CSS.escape(visible[0].target.id)}"]`);
+      link?.setAttribute('aria-current', 'location');
+    }, { rootMargin: '-10% 0px -70% 0px' });
+    document.querySelectorAll('.report-prose h2[id], .report-prose h3[id]').forEach((heading) => observer.observe(heading));
+  }
+</script>

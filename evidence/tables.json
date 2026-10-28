@@ -1,0 +1,459 @@
+[
+  {
+    "number": 1,
+    "caption": "Table 1. Post-quantum security categories",
+    "headers": [
+      "Security Category",
+      "Attack Type",
+      "Example"
+    ],
+    "rows": [
+      [
+        "1",
+        "Key search on a block cipher with a 128-bit key",
+        "AES-128"
+      ],
+      [
+        "2",
+        "Collision search on a 256-bit hash function",
+        "SHA-256"
+      ],
+      [
+        "3",
+        "Key search on a block cipher with a 192-bit key",
+        "AES-192"
+      ],
+      [
+        "4",
+        "Collision search on a 384-bit hash function",
+        "SHA3-384"
+      ],
+      [
+        "5",
+        "Key search on a block cipher with a 256-bit key",
+        "AES-256"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 22,
+        "y0": 92,
+        "y1": 197
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "caption": "Table 2. Quantum-vulnerable digital signature algorithms",
+    "headers": [
+      "Digital Signature Algorithm Family",
+      "Parameters",
+      "Transition"
+    ],
+    "rows": [
+      [
+        "<strong>ECDSA</strong><br>[FIPS186]",
+        "≥ 112 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ],
+      [
+        "<strong>EdDSA</strong><br>[FIPS186]",
+        "≥ 128 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ],
+      [
+        "<strong>RSA</strong><br>[FIPS186]",
+        "≥ 112 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 22,
+        "y0": 299,
+        "y1": 418
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "caption": "Table 3. Post-quantum digital signature algorithms",
+    "headers": [
+      "Digital Signature Algorithm Family",
+      "Parameter Sets",
+      "Classical Security Strength",
+      "Security Category"
+    ],
+    "rows": [
+      [
+        {
+          "text": "<strong>ML-DSA</strong><br>[FIPS204]",
+          "rowspan": 3
+        },
+        "ML-DSA-44",
+        "128 bits",
+        "2 (see note <sup><a href=\"#fn-2\" id=\"fnref-2\">2</a></sup>)"
+      ],
+      [
+        null,
+        "ML-DSA-65",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "ML-DSA-87",
+        "256 bits",
+        "5"
+      ],
+      [
+        {
+          "text": "<strong>SLH-DSA</strong><br>[FIPS205]",
+          "rowspan": 3
+        },
+        "SLH-DSA-SHA2-128[s/f]<br>SLH-DSA-SHAKE-128[s/f]",
+        "128 bits",
+        "1"
+      ],
+      [
+        null,
+        "SLH-DSA-SHA2-192[s/f]<br>SLH-DSA-SHAKE-192[s/f]",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "SLH-DSA-SHA2-256[s/f]<br>SLH-DSA-SHAKE-256[s/f]",
+        "256 bits",
+        "5"
+      ],
+      [
+        {
+          "text": "<strong>LMS, HSS</strong><br>[SP800208]",
+          "rowspan": 2
+        },
+        "With SHA-256/192<br>With SHAKE256/192",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "With SHA-256<br>With SHAKE256",
+        "256 bits",
+        "5"
+      ],
+      [
+        {
+          "text": "<strong>XMSS, XMSS<sup><em>MT</em></sup></strong><br>[SP800208]",
+          "rowspan": 2
+        },
+        "With SHA-256/192<br>With SHAKE256/192",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "With SHA-256<br>With SHAKE256",
+        "256 bits",
+        "5"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 23,
+        "y0": 93,
+        "y1": 392
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "caption": "Table 4. Quantum-vulnerable key-establishment schemes",
+    "headers": [
+      "Key-Establishment Scheme",
+      "Parameters",
+      "Transition"
+    ],
+    "rows": [
+      [
+        "<strong>Finite Field<br>DH and MQV</strong><br>[SP80056A]",
+        "≥ 112 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ],
+      [
+        "<strong>Elliptic Curve<br>DH and MQV</strong><br>[SP80056A]",
+        "≥ 112 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ],
+      [
+        "<strong>RSA</strong><br>[SP80056B]",
+        "≥ 112 bits of classical security strength",
+        "<em><strong>Deprecated</strong></em> after 2030<br><em><strong>Disallowed</strong></em> after 2035"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 23,
+        "y0": 579,
+        "y1": 661
+      },
+      {
+        "page": 24,
+        "y0": 71,
+        "y1": 230
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "caption": "Table 5. Post-quantum key-establishment schemes",
+    "headers": [
+      "Key-Establishment Scheme",
+      "Parameter Sets",
+      "Classical Security Strength",
+      "Security Category"
+    ],
+    "rows": [
+      [
+        {
+          "text": "<strong>ML-KEM</strong><br>[FIPS203]",
+          "rowspan": 3
+        },
+        "ML-KEM-512",
+        "128 bits",
+        "1"
+      ],
+      [
+        null,
+        "ML-KEM-768",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "ML-KEM-1024",
+        "256 bits",
+        "5"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 24,
+        "y0": 467,
+        "y1": 572
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "caption": "Table 6. Block ciphers",
+    "headers": [
+      "Block Cipher",
+      "Parameter Sets",
+      "Classical Security Strength",
+      "Security Category"
+    ],
+    "rows": [
+      [
+        {
+          "text": "<strong>AES</strong><br>[FIPS197]",
+          "rowspan": 3
+        },
+        "AES-128",
+        "128 bits",
+        "1"
+      ],
+      [
+        null,
+        "AES-192",
+        "192 bits",
+        "3"
+      ],
+      [
+        null,
+        "AES-256",
+        "256 bits",
+        "5"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 25,
+        "y0": 350,
+        "y1": 446
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "caption": "Table 7. Authenticated Encryption with Associated Data (AEAD)",
+    "headers": [
+      "Authenticated Encryption with Associated Data (AEAD)",
+      "Parameter Sets",
+      "Classical Security Strength",
+      "Security Category"
+    ],
+    "rows": [
+      [
+        "<strong>Ascon</strong><br>[SP800232]",
+        "AES-AEAD128",
+        "128 bits",
+        "1"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 25,
+        "y0": 474,
+        "y1": 532
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "caption": "Table 8. Hash functions and XOFs",
+    "headers": [
+      "Hash/XOF Algorithm Family",
+      "Variants",
+      "Collision Security Strength (classical)",
+      "Collision Security Category",
+      "Preimage Security Strength<sup><a href=\"#fn-3\" id=\"fnref-3\">3</a></sup> (classical)",
+      "Preimage Security Category"
+    ],
+    "rows": [
+      [
+        "<strong>SHA-1</strong><br>[FIPS180]<sup><a href=\"#fn-4\" id=\"fnref-4\">4</a></sup>",
+        "SHA-1",
+        "&lt;80 bits",
+        "&lt; 1",
+        "160 bits",
+        "1"
+      ],
+      [
+        {
+          "text": "<strong>SHA-2</strong><br>[FIPS180]",
+          "rowspan": 4
+        },
+        "SHA-224<br>SHA-512/224",
+        "112 bits",
+        "&lt; 1",
+        "224 bits",
+        "3"
+      ],
+      [
+        null,
+        "SHA-256<br>SHA-512/256",
+        "128 bits",
+        "2",
+        "256 bits",
+        "5"
+      ],
+      [
+        null,
+        "SHA-384",
+        "192 bits",
+        "4",
+        "384 bits",
+        "5"
+      ],
+      [
+        null,
+        "SHA-512",
+        "256 bits",
+        "5",
+        "512 bits",
+        "5"
+      ],
+      [
+        {
+          "text": "<strong>SHA-3</strong><br>[FIPS202]",
+          "rowspan": 6
+        },
+        "SHA3-224",
+        "112 bits",
+        "&lt; 1",
+        "224 bits",
+        "3"
+      ],
+      [
+        null,
+        "SHA3-256",
+        "128 bits",
+        "2",
+        "256 bits",
+        "5"
+      ],
+      [
+        null,
+        "SHAKE128<br>(assuming large enough output size)",
+        "128 bits",
+        "2",
+        "128 bits",
+        "2"
+      ],
+      [
+        null,
+        "SHA3-384",
+        "192 bits",
+        "4",
+        "384 bits",
+        "5"
+      ],
+      [
+        null,
+        "SHA3-512",
+        "256 bits",
+        "5",
+        "512 bits",
+        "5"
+      ],
+      [
+        null,
+        "SHAKE256<br>(assuming large enough output size)",
+        "256 bits",
+        "5",
+        "256 bits",
+        "5"
+      ],
+      [
+        {
+          "text": "<strong>Ascon</strong><br>[SP800232]",
+          "rowspan": 3
+        },
+        "Ascon-Hash256",
+        "128 bits",
+        "2",
+        "128 bits",
+        "2"
+      ],
+      [
+        null,
+        "Ascon-XOF128<br>(assuming large enough output size)",
+        "128 bits",
+        "2",
+        "128 bits",
+        "2"
+      ],
+      [
+        null,
+        "Ascon-CXOF128<br>(assuming large enough output size)",
+        "128 bits",
+        "2",
+        "128 bits",
+        "2"
+      ]
+    ],
+    "regions": [
+      {
+        "page": 25,
+        "y0": 561,
+        "y1": 659
+      },
+      {
+        "page": 26,
+        "y0": 71,
+        "y1": 528
+      }
+    ]
+  }
+]

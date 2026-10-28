@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import ReaderTools from '../../components/ReaderTools.astro';
+export function getStaticPaths() {
+  const modules = import.meta.glob('../../content/reports/*.json', { eager: true, import: 'default' });
+  return Object.values(modules).map((report: any) => ({ params: { slug: report.slug }, props: { report } }));
+}
+const { report } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pdf = `${base}${report.pdfPath}`;
+const mainHeadings = report.headings.filter((h: any) => h.level <= 3);
+---
+<Base title={report.title} description={report.description} reading>
+  <main id="main" class="reader-main">
+    <div class="reader-shell">
+      <aside class="contents-sidebar" aria-label="Report contents" data-pagefind-ignore>
+        <a class="back-link" href={`${base}/`}>← All publications</a>
+        <div class="contents-label">ON THIS PAGE</div>
+        <nav aria-label="Desktop table of contents"><ol>{mainHeadings.map((heading: any) => <li class:list={[{ nested: heading.level >= 3 }]}><a href={`#${heading.id}`}>{heading.text}</a></li>)}</ol></nav>
+        <a class="sidebar-source" href={pdf}>Original PDF <span aria-hidden="true">↗</span></a>
+      </aside>
+      <div class="reading-column">
+        <div class="mobile-reader-nav" data-pagefind-ignore>
+          <a class="back-link" href={`${base}/`}>← Library</a>
+          <details class="mobile-contents"><summary>Contents <span aria-hidden="true">⌄</span></summary><nav aria-label="Mobile table of contents"><ol>{mainHeadings.map((heading: any) => <li class:list={[{ nested: heading.level >= 3 }]}><a href={`#${heading.id}`}>{heading.text}</a></li>)}</ol></nav></details>
+        </div>
+        <article data-pagefind-body data-pagefind-filter={`report:${report.slug}`} data-pagefind-meta={`report:${report.identifier}`}>
+          <header class="report-header">
+            <p class="eyebrow">{report.identifier} <span class="meta-dot">·</span> {report.date}</p>
+            <h1 data-pagefind-meta="title">{report.title}</h1>
+            <p class="report-authors">{report.authors.join(' · ')}</p>
+            <div class="report-actions" data-pagefind-ignore><a href={pdf}>Download PDF <span aria-hidden="true">↗</span></a><a href={`${base}/search/?report=${report.slug}`}>Search this report</a></div>
+            <p class="edition-note" data-pagefind-ignore><span class="status-dot"></span> Independent web reading edition <span class="note-divider">/</span> <a href={report.sourceUrl}>NIST source</a></p>
+          </header>
+          <div class="report-prose" set:html={report.html} />
+        </article>
+        <div class="end-note" data-pagefind-ignore><span class="eyebrow">END OF REPORT</span><p>Read in context. Keep the source close.</p><a href={pdf}>View the original publication ↗</a><a href="#main">Back to top ↑</a></div>
+      </div>
+    </div>
+  </main>
+  <ReaderTools />
+</Base>
