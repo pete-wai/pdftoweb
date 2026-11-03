@@ -30,7 +30,7 @@ const mainHeadings = report.headings.filter((h: any) => h.level <= 3);
             <h1 data-pagefind-meta="title">{report.title}</h1>
             <p class="report-authors">{report.authors.join(' · ')}</p>
             <div class="report-actions" data-pagefind-ignore><a href={pdf}>Download PDF <span aria-hidden="true">↗</span></a><a href={`${base}/search/?report=${report.slug}`}>Search this report</a></div>
-            <p class="edition-note" data-pagefind-ignore><span class="status-dot"></span> Independent web reading edition <span class="note-divider">/</span> <a href={report.sourceUrl}>NIST source</a></p>
+            <p class="edition-note" data-pagefind-ignore><span class="status-dot"></span> Independent web reading edition <span class="note-divider">/</span> <a href={report.sourceUrl}>{report.sourceLabel || 'Publisher source'}</a></p>
           </header>
           <div class="report-prose" set:html={report.html} />
         </article>

@@ -1,0 +1,4622 @@
+[
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      61.26403045654297,
+      516.10400390625,
+      82.86402893066406
+    ],
+    "text": "Purpose of GovRAMP RFC 2601 – 20x Delta Assessment"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      86.93602752685547,
+      528.0289916992188,
+      101.33602905273438
+    ],
+    "text": "GovRAMP is seeking stakeholder feedback on a proposed 20x Delta Assessment approach"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      101.43602752685547,
+      487.2409973144531,
+      115.83602905273438
+    ],
+    "text": "intended to support alignment between FedRAMP 20x and the GovRAMP security"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      115.70598602294922,
+      524.4769897460938,
+      130.10598754882812
+    ],
+    "text": "verification requirements. The proposed approach seeks to reduce duplicative assessment"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      130.20599365234375,
+      526.6820068359375,
+      144.60598754882812
+    ],
+    "text": "effort while maintaining the security assurance, consistency, and risk-based validation that"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      144.70599365234375,
+      448.49200439453125,
+      159.10598754882812
+    ],
+    "text": "government agencies rely on when evaluating cloud products and services."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      170.95599365234375,
+      513.4490356445312,
+      185.35598754882812
+    ],
+    "text": "This Request for Comments (RFC) invites government agencies, cloud service providers,"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      185.48602294921875,
+      469.9250793457031,
+      199.88601684570312
+    ],
+    "text": "third party assessment organizations (3PAOs), consultants, and other interested"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      199.73602294921875,
+      508.75701904296875,
+      214.13601684570312
+    ],
+    "text": "stakeholders to review the proposed assessment criteria and provide feedback on their"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      214.23602294921875,
+      518.708984375,
+      228.63601684570312
+    ],
+    "text": "clarity, effectiveness, implementation considerations, and potential impact. Feedback will"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      228.73602294921875,
+      513.8441162109375,
+      243.13601684570312
+    ],
+    "text": "inform GovRAMP’s continued evaluation of the proposed approach. Participation in this"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      243.23602294921875,
+      341.72198486328125,
+      257.6360168457031
+    ],
+    "text": "RFC is open to GovRAMP members and non-members."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      269.5060119628906,
+      142.62200927734375,
+      283.906005859375
+    ],
+    "text": "Comment Period"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      67.0250015258789,
+      283.7560119628906,
+      277.2019958496094,
+      298.156005859375
+    ],
+    "text": "o RFC Open Date: November 2, 2026"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      67.0250015258789,
+      298.2560119628906,
+      276.2019958496094,
+      312.656005859375
+    ],
+    "text": "o RFC Close Date: December 4, 2026"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      67.0250015258789,
+      312.7560119628906,
+      441.5019836425781,
+      327.156005859375
+    ],
+    "text": "o Submission Method: Online (preferred) or email to rfc@govramp.org."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      341.5260009765625,
+      271.65802001953125,
+      355.9259948730469
+    ],
+    "text": "Attachment: GR 20x Delta Analysis Record"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      67.0250015258789,
+      355.7760009765625,
+      508.11993408203125,
+      370.1759948730469
+    ],
+    "text": "o The workbook contains information on the methodology, analysis and proposed"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      85.0250015258789,
+      370.2760009765625,
+      139.87200927734375,
+      384.6759948730469
+    ],
+    "text": "approach."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      402.60400390625,
+      153.45399475097656,
+      424.2040100097656
+    ],
+    "text": "Introduction"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      428.3059997558594,
+      528.905029296875,
+      442.70599365234375
+    ],
+    "text": "GovRAMP recognizes that maintaining multiple compliance frameworks can be challenging"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      442.8059997558594,
+      526.2240600585938,
+      457.20599365234375
+    ],
+    "text": "and resource-intensive for providers. Harmonization therefore remains a strategic priority."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      457.0559997558594,
+      519.7680053710938,
+      471.45599365234375
+    ],
+    "text": "As such, GovRAMP formed a Framework Harmonization Working Group in April 2025 to"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      471.5559997558594,
+      526.4451904296875,
+      485.95599365234375
+    ],
+    "text": "devote focused stakeholder attention to this initiative. As regulatory requirements and the"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      485.8059997558594,
+      534.9769897460938,
+      500.20599365234375
+    ],
+    "text": "cybersecurity landscape continue to evolve, GovRAMP will continue to adapt its program to"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      500.3260498046875,
+      427.0019836425781,
+      514.72607421875
+    ],
+    "text": "meet the needs of both government agencies and industry participants."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      526.8259887695312,
+      505.68487548828125,
+      541.2260131835938
+    ],
+    "text": "This RFC is in response to the publication of FedRAMP’s Consolidated Rules 2026 and"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      541.0759887695312,
+      489.1969299316406,
+      555.4760131835938
+    ],
+    "text": "ongoing discussions around how to harmonize requirements for FedRAMP 20x and"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      555.5759887695312,
+      519.2460327148438,
+      569.9760131835938
+    ],
+    "text": "GovRAMP verified statuses. (References: 2026 - FedRAMP Consolidated Rules for 2026 and"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      569.8259887695312,
+      519.9081420898438,
+      584.2260131835938
+    ],
+    "text": "Security Program | GovRAMP). View more background and rationale on the approach in the"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      583.3560180664062,
+      100.62200164794922,
+      597.7560424804688
+    ],
+    "text": "Appendix."
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      609.4080200195312,
+      186.92599487304688,
+      628.6080322265625
+    ],
+    "text": "Proposal Overview"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      632.8560180664062,
+      531.9530639648438,
+      647.2560424804688
+    ],
+    "text": "Framework Harmonization Working Group and GovRAMP committee discussions informed"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      647.1060180664062,
+      532.9371948242188,
+      661.5060424804688
+    ],
+    "text": "the development of the proposed 20x Delta Assessment. The Delta Assessment is intended"
+  },
+  {
+    "page": 2,
+    "bbox": [
+      49.025001525878906,
+      661.635986328125,
+      495.22113037109375,
+      676.0360107421875
+    ],
+    "text": "to serve as a bridge between the modernized assessment concepts being introduced"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      61.43602752685547,
+      491.25213623046875,
+      75.83602905273438
+    ],
+    "text": "through FedRAMP 20x and the established NIST-based requirements that underpin"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      75.68602752685547,
+      502.4569091796875,
+      90.08602905273438
+    ],
+    "text": "GovRAMP and many of the security frameworks relied upon by state, local, tribal, and"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      90.18602752685547,
+      529.1571655273438,
+      104.58602905273438
+    ],
+    "text": "territorial (SLTT) governments. These include requirements and programs founded on NIST"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      104.70598602294922,
+      481.5220031738281,
+      119.10598754882812
+    ],
+    "text": "standards, such as FISMA, CJIS Security Policy, IRS Publication 1075, and CMMC."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      130.95599365234375,
+      524.4171142578125,
+      145.35598754882812
+    ],
+    "text": "The proposed approach aligns with key principles of FedRAMP 20x, including automation,"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      145.45599365234375,
+      496.0260314941406,
+      159.85598754882812
+    ],
+    "text": "continuous assurance, evidence reuse, and risk-based validation. At the same time, it"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      159.70599365234375,
+      514.510009765625,
+      174.10598754882812
+    ],
+    "text": "provides additional NIST-aligned assessment objectives intended to establish a common"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      174.20599365234375,
+      521.6571655273438,
+      188.60598754882812
+    ],
+    "text": "baseline of trust and assurance for government customers. The Delta Assessment may be"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      188.73602294921875,
+      519.4732055664062,
+      203.13601684570312
+    ],
+    "text": "applied alongside a FedRAMP 20x assessment, ideally during the initial review process or"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      202.98602294921875,
+      522.9779663085938,
+      217.38601684570312
+    ],
+    "text": "subsequently, to address areas where additional testing is needed to support a GovRAMP"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      217.48602294921875,
+      129.62200927734375,
+      231.88601684570312
+    ],
+    "text": "verified status."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      243.73602294921875,
+      485.7052001953125,
+      258.1360168457031
+    ],
+    "text": "The goal of the Delta Assessment is to synthesize and modernize how assurance is"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      258.23602294921875,
+      496.3851623535156,
+      272.6360168457031
+    ],
+    "text": "demonstrated by emphasizing continuous visibility into risk, ongoing monitoring, and"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      272.7560119628906,
+      522.173095703125,
+      287.156005859375
+    ],
+    "text": "independent validation of meaningful changes to a provider's security posture. GovRAMP"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      287.0060119628906,
+      482.6508483886719,
+      301.406005859375
+    ],
+    "text": "believes this approach can build trust while creating a more efficient, scalable, and"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      301.5060119628906,
+      420.0019836425781,
+      315.906005859375
+    ],
+    "text": "sustainable pathway for both providers and government stakeholders."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      327.8080139160156,
+      202.67599487304688,
+      347.00799560546875
+    ],
+    "text": "Long-Term Objective"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      351.0260009765625,
+      483.72503662109375,
+      365.4259948730469
+    ],
+    "text": "The overarching objective of the 20x Delta Assessment is to create a practical and"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      365.5260009765625,
+      507.9649658203125,
+      379.9259948730469
+    ],
+    "text": "sustainable path for cloud service providers serving both federal and SLTT government"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      379.7760009765625,
+      493.240966796875,
+      394.1759948730469
+    ],
+    "text": "customers. The approach is intended to complement the FedRAMP 20x vision while"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      394.2760009765625,
+      527.4381103515625,
+      408.6759948730469
+    ],
+    "text": "maintaining the consistency and confidence government agencies require when evaluating"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      408.7760009765625,
+      147.62200927734375,
+      423.1759948730469
+    ],
+    "text": "cybersecurity risk."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      435.0559997558594,
+      500.90924072265625,
+      449.45599365234375
+    ],
+    "text": "GovRAMP leadership remains committed to engaging the community throughout this"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      449.5559997558594,
+      526.529052734375,
+      463.95599365234375
+    ],
+    "text": "process and welcomes feedback to help ensure the program balances security, operational"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      464.0559997558594,
+      352.22198486328125,
+      478.45599365234375
+    ],
+    "text": "practicality, and trust across the public sector ecosystem."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      49.025001525878906,
+      490.1080017089844,
+      336.4960021972656,
+      509.3079833984375
+    ],
+    "text": "This RFC seeks community feedback on:"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67.0250015258789,
+      513.3600463867188,
+      529.7571411132812,
+      528.0120239257812
+    ],
+    "text": "• Whether the proposed Delta Assessment appropriately balances security assurance,"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      528.0759887695312,
+      537.677001953125,
+      542.4760131835938
+    ],
+    "text": "operational efficiency, and the evolving needs of the GovRAMP community, including"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      542.5759887695312,
+      277.2019958496094,
+      556.9760131835938
+    ],
+    "text": "both public and private participants."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67.0250015258789,
+      556.8599853515625,
+      496.79302978515625,
+      571.511962890625
+    ],
+    "text": "• The extent to which the proposed Delta Assessment appropriately aligns with"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      571.5759887695312,
+      518.4890747070312,
+      585.9760131835938
+    ],
+    "text": "modern authorization approaches, security validation methods, and the regulatory"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      586.1060180664062,
+      536.2919921875,
+      600.5060424804688
+    ],
+    "text": "requirements that underpin many state and local government compliance obligations."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67.0250015258789,
+      600.3900146484375,
+      470.4939880371094,
+      615.0419921875
+    ],
+    "text": "• Whether the Delta Assessment criteria are appropriate, clear, risk-based,"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      616.1060180664062,
+      346.97198486328125,
+      630.5060424804688
+    ],
+    "text": "implementable, and sufficient for trust decisions."
+  },
+  {
+    "page": 3,
+    "bbox": [
+      67.0250015258789,
+      631.6400146484375,
+      522.99609375,
+      646.2919921875
+    ],
+    "text": "• Specific policy considerations related to System Security Plan (SSP) documentation"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      647.3560180664062,
+      525.634033203125,
+      661.7560424804688
+    ],
+    "text": "requirements; annual penetration testing requirements; and supplemental evidence"
+  },
+  {
+    "page": 3,
+    "bbox": [
+      85.0250015258789,
+      662.8759765625,
+      353.72198486328125,
+      677.2760009765625
+    ],
+    "text": "requirements related to malicious code protection."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      61.26403045654297,
+      347.27398681640625,
+      82.86402893066406
+    ],
+    "text": "The Proposed 20x Delta Assessment"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      90.98802947998047,
+      207.17599487304688,
+      110.18802642822266
+    ],
+    "text": "Scope of the Proposal"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      114.20598602294922,
+      474.4850158691406,
+      128.60598754882812
+    ],
+    "text": "The 20x Delta Assessment proposal is focused exclusively on annual assessment"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      128.70599365234375,
+      509.488037109375,
+      143.10598754882812
+    ],
+    "text": "requirements associated with GovRAMP-verified status. This proposal does not modify"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      142.95599365234375,
+      528.4130859375,
+      157.35598754882812
+    ],
+    "text": "GovRAMP continuous monitoring requirements and does not address FedRAMP's recently"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      157.45599365234375,
+      484.98199462890625,
+      171.85598754882812
+    ],
+    "text": "introduced Vulnerability Disclosure Reporting (VDR) and Vulnerability Exploitation"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      171.95599365234375,
+      212.17201232910156,
+      186.35598754882812
+    ],
+    "text": "Reporting (VER) requirements."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      198.23602294921875,
+      485.6089172363281,
+      212.63601684570312
+    ],
+    "text": "This exclusion is intentional. In August 2026, the GovRAMP Standards & Technical"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      212.73602294921875,
+      536.2728271484375,
+      227.13601684570312
+    ],
+    "text": "Committee and the GovRAMP Board directed the GovRAMP PMO to recognize FedRAMP's"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      226.98602294921875,
+      484.46905517578125,
+      241.38601684570312
+    ],
+    "text": "VDR and VER requirements as satisfying the corresponding GovRAMP continuous"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      241.48602294921875,
+      516.8840942382812,
+      255.88601684570312
+    ],
+    "text": "monitoring requirements for GovRAMP Authorized products. As a result, this proposal is"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      255.98602294921875,
+      532.052001953125,
+      270.3860168457031
+    ],
+    "text": "limited to annual assessment activities and does not impact existing continuous monitoring."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      282.0580139160156,
+      147.64599609375,
+      301.25799560546875
+    ],
+    "text": "Methodology"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      305.5060119628906,
+      506.4889831542969,
+      319.906005859375
+    ],
+    "text": "A standardized approach for scoping Key Security Indicators (KSIs) is needed to enable"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      320.0060119628906,
+      371.97198486328125,
+      334.406005859375
+    ],
+    "text": "consistent and repeatable assessments across organizations."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      346.2760009765625,
+      477.884033203125,
+      360.6759948730469
+    ],
+    "text": "GovRAMP selected NIST SP 800-53 Revision 5 as the basis for scoping the Delta"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      360.7760009765625,
+      528.6171264648438,
+      375.1759948730469
+    ],
+    "text": "Assessment because NIST remains the common cybersecurity foundation underlying many"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      375.0260009765625,
+      511.9610595703125,
+      389.4259948730469
+    ],
+    "text": "federal, state, local, tribal, and territorial government security programs and regulations."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      389.5260009765625,
+      167.15200805664062,
+      403.9259948730469
+    ],
+    "text": "(Reference: Appendix)."
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      415.7760009765625,
+      490.5169372558594,
+      430.1759948730469
+    ],
+    "text": "An analysis was conducted to identify the potential NIST control coverage between"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      430.3059997558594,
+      525.9169921875,
+      444.70599365234375
+    ],
+    "text": "FedRAMP 20x certification requirements for Class B and Class C and the requirements for"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      444.8059997558594,
+      521.4339599609375,
+      459.20599365234375
+    ],
+    "text": "GovRAMP Core, Ready and Authorized. The analysis leveraged several available machine-"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      49.025001525878906,
+      459.3059997558594,
+      206.65200805664062,
+      473.70599365234375
+    ],
+    "text": "readable data sets, including:"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85.0250015258789,
+      485.5559997558594,
+      414.3779296875,
+      499.95599365234375
+    ],
+    "text": "1.  FedRAMP’s 2026 Consolidated Rules .json file available at"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      500.0429992675781,
+      482.0420227050781,
+      513.2429809570312
+    ],
+    "text": "https://raw.githubusercontent.com/fedramp/rules/refs/heads/main/fedramp-"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      512.0760498046875,
+      217.42201232910156,
+      526.47607421875
+    ],
+    "text": "consolidated-rules.json"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85.0250015258789,
+      526.3259887695312,
+      430.99200439453125,
+      540.7260131835938
+    ],
+    "text": "2. GovRAMP’s Low and Moderate controls baseline published at"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      540.81298828125,
+      533.6339721679688,
+      554.0130004882812
+    ],
+    "text": "https://govramp.org/hubfs/RFC/GR%20Controls%20Selection%20for%20All%20Baselin"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      553.0759887695312,
+      140.62200927734375,
+      567.4760131835938
+    ],
+    "text": "es.xlsx"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85.0250015258789,
+      567.0759887695312,
+      458.81787109375,
+      581.4760131835938
+    ],
+    "text": "3. NIST SP800-53 and NIST SP800-53A in OSCAL format available at"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      581.593017578125,
+      357.99200439453125,
+      594.7930297851562
+    ],
+    "text": "https://raw.githubusercontent.com/usnistgov/oscal-"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      594.843017578125,
+      447.51202392578125,
+      608.0430297851562
+    ],
+    "text": "content/refs/heads/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      607.1060180664062,
+      207.90200805664062,
+      621.5060424804688
+    ],
+    "text": "53_rev5_catalog.json"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      85.0250015258789,
+      621.1060180664062,
+      467.43798828125,
+      635.5060424804688
+    ],
+    "text": "4. GSA FedRAMP PMO’s Threat-Based Controls Scoring study located at"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      635.593017578125,
+      441.5220031738281,
+      648.7930297851562
+    ],
+    "text": "https://github.com/GSA/threat-analysis/raw/refs/heads/main/REV5-"
+  },
+  {
+    "page": 4,
+    "bbox": [
+      103.05000305175781,
+      647.8560180664062,
+      428.49200439453125,
+      662.2560424804688
+    ],
+    "text": "MITRE%20ATTACK%20Threat%20Analysis%20(01-07-2022).xlsx"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      61.23802947998047,
+      192.42599487304688,
+      80.43802642822266
+    ],
+    "text": "Analysis Takeaways"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      84.68602752685547,
+      505.4930419921875,
+      99.08602905273438
+    ],
+    "text": "As a starting point, the analysis focused on the Moderate impact level, as it is the most"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      98.93602752685547,
+      488.4650573730469,
+      113.33602905273438
+    ],
+    "text": "commonly used impact level within the GovRAMP security program. Depending on"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      113.45598602294922,
+      514.0130615234375,
+      127.85598754882812
+    ],
+    "text": "stakeholder feedback, GovRAMP may apply the same methodology to additional impact"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      127.95598602294922,
+      248.67201232910156,
+      142.35598754882812
+    ],
+    "text": "levels in a future phase of this effort."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      154.20599365234375,
+      510.94598388671875,
+      168.60598754882812
+    ],
+    "text": "When comparing FedRAMP 20x potential NIST control coverage to GovRAMP-verified"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      168.70599365234375,
+      209.65200805664062,
+      183.10598754882812
+    ],
+    "text": "statuses, the analysis showed:"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      195.02001953125,
+      489.28082275390625,
+      209.67201232910156
+    ],
+    "text": "• FedRAMP 20x has potential to meet 88.3% of GovRAMP Core NIST Control"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      209.73602294921875,
+      269.9219970703125,
+      224.13601684570312
+    ],
+    "text": "Coverage (Moderate Impact Level)"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      224.02001953125,
+      496.5168151855469,
+      238.67201232910156
+    ],
+    "text": "• FedRAMP 20x has potential to meet 78.8% of GovRAMP Ready NIST Control"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      238.73602294921875,
+      269.9219970703125,
+      253.13601684570312
+    ],
+    "text": "Coverage (Moderate Impact Level)"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      253.02001953125,
+      521.9929809570312,
+      267.6720275878906
+    ],
+    "text": "• FedRAMP 20x has potential to meet 62.4% of GovRAMP Authorized NIST Control"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      267.7559814453125,
+      272.7019958496094,
+      282.1559753417969
+    ],
+    "text": "Coverage (Moderate Impact Level)."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      294.0060119628906,
+      502.50506591796875,
+      308.406005859375
+    ],
+    "text": "Subsequent discussions in committee work sessions centered on the methodology for"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      308.5060119628906,
+      537.52099609375,
+      322.906005859375
+    ],
+    "text": "validating NIST controls. A mapped KSI may relate to a NIST control, but that alone does not"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      323.0060119628906,
+      531.22998046875,
+      337.406005859375
+    ],
+    "text": "prove that a provider’s evidence satisfies the control or GovRAMP’s assessment objectives."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      337.2560119628906,
+      511.9129943847656,
+      351.656005859375
+    ],
+    "text": "This resulted in a recommendation to develop a GovRAMP 20x Delta Assessment using"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      351.7760009765625,
+      494.45306396484375,
+      366.1759948730469
+    ],
+    "text": "NIST Assessment Objective language to inform the required inputs and evidence for"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      366.2760009765625,
+      123.37200164794922,
+      380.6759948730469
+    ],
+    "text": "mapped KSIs."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      392.3280029296875,
+      330.22601318359375,
+      411.5279846191406
+    ],
+    "text": "Instructions for Reviewing the Analysis:"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      415.7760009765625,
+      434.24200439453125,
+      430.1759948730469
+    ],
+    "text": "View the analysis and proposal workbook at GR 20x Delta Analysis Record."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      442.0559997558594,
+      205.90200805664062,
+      456.45599365234375
+    ],
+    "text": "Tab 1 (FR 20x NIST Mapping)"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      456.3399963378906,
+      525.760986328125,
+      470.99200439453125
+    ],
+    "text": "• Represents the import of the 20x KSIs from the FedRAMP Consolidated Rules .json"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      471.3059997558594,
+      116.37200164794922,
+      485.70599365234375
+    ],
+    "text": "file."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      485.5899963378906,
+      521.4530639648438,
+      500.24200439453125
+    ],
+    "text": "• Each KSI is represented in the tab, along with its Theme Name, KSI Statement, and"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      500.3260498046875,
+      402.2519836425781,
+      514.72607421875
+    ],
+    "text": "Related NIST SP800-53 controls as identified by FedRAMP."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      49.025001525878906,
+      526.5759887695312,
+      224.67201232910156,
+      540.9760131835938
+    ],
+    "text": "Tab 2 (20x KSIs to NIST by Rows)"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      540.8599853515625,
+      522.9889526367188,
+      555.511962890625
+    ],
+    "text": "•  Duplicates the data from the first tab and creates a new row for each related NIST"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      85.0250015258789,
+      555.5759887695312,
+      134.62200927734375,
+      569.9760131835938
+    ],
+    "text": "control."
+  },
+  {
+    "page": 5,
+    "bbox": [
+      67.0250015258789,
+      569.8599853515625,
+      346.47198486328125,
+      584.511962890625
+    ],
+    "text": "• For each control, additional information is added:"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      103.05000305175781,
+      584.6400146484375,
+      323.9519958496094,
+      599.2919921875
+    ],
+    "text": " NIST SP800-53r5 Control Statement,"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      103.05000305175781,
+      599.1400146484375,
+      529.8298950195312,
+      613.7919921875
+    ],
+    "text": " Indicator for selection at the GovRAMP Core, Moderate Ready, or GovRAMP"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      121.05000305175781,
+      613.8560180664062,
+      239.42201232910156,
+      628.2560424804688
+    ],
+    "text": "Authorized baselines,"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      103.05000305175781,
+      628.1400146484375,
+      396.74200439453125,
+      642.7919921875
+    ],
+    "text": " Any GovRAMP Parameter or guidance information,"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      103.05000305175781,
+      642.8900146484375,
+      411.49200439453125,
+      657.5419921875
+    ],
+    "text": " NIST SP800-53A Assessment Objective for the control,"
+  },
+  {
+    "page": 5,
+    "bbox": [
+      103.05000305175781,
+      657.4099731445312,
+      535.947998046875,
+      672.0619506835938
+    ],
+    "text": " the NIST SP800-53A Potential Assessment Methods and Objects for the control,"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      61.43602752685547,
+      143.62200927734375,
+      75.83602905273438
+    ],
+    "text": "and"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      75.72003173828125,
+      518.0419921875,
+      90.37203216552734
+    ],
+    "text": " The Protection Value assigned from the Threat-Based Controls Scoring study."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      49.025001525878906,
+      102.43602752685547,
+      264.9219970703125,
+      116.83602905273438
+    ],
+    "text": "Tab 3 (20x - GovRAMP – NIST Crosswalk)"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      69.2750015258789,
+      116.739990234375,
+      526.4869995117188,
+      131.39198303222656
+    ],
+    "text": "• This worksheet shows where potential alignment between 20x and GovRAMP may"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      131.45599365234375,
+      282.7019958496094,
+      145.85598754882812
+    ],
+    "text": "exist leveraging NIST 800-53 Rev.5."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      69.2750015258789,
+      145.739990234375,
+      491.8138732910156,
+      160.39198303222656
+    ],
+    "text": "• Imports NIST SP800-53 and SP800-53A OSCAL files to create a table of the"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      160.45599365234375,
+      497.7470397949219,
+      174.85598754882812
+    ],
+    "text": "currently active Rev 5 controls, Control Description, NIST Discussion, Related"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      174.95599365234375,
+      521.4461059570312,
+      189.35598754882812
+    ],
+    "text": "SP800-53 Controls, SP800-53A Assessment Objectives and Potential Assessment"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      189.23602294921875,
+      212.92201232910156,
+      203.63601684570312
+    ],
+    "text": "Methods and Objects."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      69.2750015258789,
+      203.52001953125,
+      534.6539916992188,
+      218.17201232910156
+    ],
+    "text": "• This tab is further enhanced by importing the Risk Protection Value assigned from the"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      218.23602294921875,
+      491.926025390625,
+      232.63601684570312
+    ],
+    "text": "Threat-Based Controls Scoring study and adding indicators for selection at the"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      232.73602294921875,
+      498.0351257324219,
+      247.13601684570312
+    ],
+    "text": "GovRAMP Core, Ready (Moderate), and/or GovRAMP Authorized (Moderate)"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      247.23602294921875,
+      418.0019836425781,
+      261.6360168457031
+    ],
+    "text": "baselines, any GovRAMP Parameter or guidance information."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      69.2750015258789,
+      261.52001953125,
+      516.0359497070312,
+      276.1720275878906
+    ],
+    "text": "• The 20x KSI ID field was added to show if an 800-53 Rev. 5 control is mentioned"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      276.2560119628906,
+      500.7720031738281,
+      290.656005859375
+    ],
+    "text": "within the 20x KSIs and, when applicable, to identify the corresponding KSI(s)."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      69.2750015258789,
+      290.5400085449219,
+      537.7548828125,
+      305.1920166015625
+    ],
+    "text": "• Finally, the NIST to KSI Objective leverages the NIST Assessment Objective language"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      305.2560119628906,
+      527.6392211914062,
+      319.656005859375
+    ],
+    "text": "to inform the GovRAMP recommendation for what inputs to include in the mapped"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      87.2750015258789,
+      319.7560119628906,
+      111.12200164794922,
+      334.156005859375
+    ],
+    "text": "KSI."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      49.025001525878906,
+      346.0260009765625,
+      470.7720031738281,
+      360.4259948730469
+    ],
+    "text": "Tabs 4a – 6b (Crosswalk Variances for GovRAMP Core, Ready and Authorized)"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      67.0250015258789,
+      360.30999755859375,
+      522.006103515625,
+      374.9620056152344
+    ],
+    "text": "• Tabs 4a – 6b are grouped into three (3) sections and represent the analysis for 20x"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      85.0250015258789,
+      375.0260009765625,
+      531.2449340820312,
+      389.4259948730469
+    ],
+    "text": "and GovRAMP Core, 20 x and GovRAMP Ready, and 20x and GovRAMP Authorized"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      85.0250015258789,
+      389.5260009765625,
+      246.42201232910156,
+      403.9259948730469
+    ],
+    "text": "at the Moderate Impact level."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      67.0250015258789,
+      403.80999755859375,
+      223.92201232910156,
+      418.4620056152344
+    ],
+    "text": "• GovRAMP Core and 20x:"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      418.5260009765625,
+      524.2900390625,
+      432.9259948730469
+    ],
+    "text": "o Tab 4a (Missing 20x NIST – GR Core) shows the NIST controls that GovRAMP"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      432.8059997558594,
+      525.8101806640625,
+      447.20599365234375
+    ],
+    "text": "Core covers and 20x does not (based on NIST control mappings found in the"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      447.3059997558594,
+      233.92201232910156,
+      461.70599365234375
+    ],
+    "text": "FedRAMP .json file)."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      461.5559997558594,
+      487.2780456542969,
+      475.95599365234375
+    ],
+    "text": "o Tab 4b (Surplus 20x NIST – GR Core) shows the NIST controls that 20x"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      476.0559997558594,
+      438.99200439453125,
+      490.45599365234375
+    ],
+    "text": "potentially covers that are not required for GovRAMP Core."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      490.5559997558594,
+      496.01995849609375,
+      504.95599365234375
+    ],
+    "text": "o Tab 4c (Sample Core GR KSI) shows the proposed GovRAMP Core Delta"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      504.8260498046875,
+      529.635986328125,
+      519.22607421875
+    ],
+    "text": "Assessment criteria for existing KSIs (Part A) and proposed Delta Assessment"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      519.3260498046875,
+      416.7519836425781,
+      533.72607421875
+    ],
+    "text": "criteria for those controls not found within 20x (Part B)."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      67.0250015258789,
+      533.5759887695312,
+      231.17201232910156,
+      547.9760131835938
+    ],
+    "text": "▪ GovRAMP Ready and 20x:"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      548.0759887695312,
+      531.7780151367188,
+      562.4760131835938
+    ],
+    "text": "o Tab 5a (Missing 20x NIST – GR Ready) shows the NIST controls that GovRAMP"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      562.5759887695312,
+      533.0460815429688,
+      576.9760131835938
+    ],
+    "text": "Ready covers and 20x does not (based on NIST control mappings found in the"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      576.8259887695312,
+      233.92201232910156,
+      591.2260131835938
+    ],
+    "text": "FedRAMP .json file)."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      591.3560180664062,
+      491.5720520019531,
+      605.7560424804688
+    ],
+    "text": "o Tab 5b (Surplus 20x NIST – GR Ready) shows the NIST controls that are"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      605.6060180664062,
+      489.5220031738281,
+      620.0060424804688
+    ],
+    "text": "potentially covered in 20x that are not required for GovRAMP Ready."
+  },
+  {
+    "page": 6,
+    "bbox": [
+      103.05000305175781,
+      620.1060180664062,
+      510.7759704589844,
+      634.5060424804688
+    ],
+    "text": "o Tab 5c (Sample Ready GR KSI) shows the proposed GovRAMP Ready Delta"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      634.6060180664062,
+      529.635986328125,
+      649.0060424804688
+    ],
+    "text": "Assessment criteria for existing KSIs (Part A) and proposed Delta Assessment"
+  },
+  {
+    "page": 6,
+    "bbox": [
+      121.05000305175781,
+      648.8560180664062,
+      413.74200439453125,
+      663.2560424804688
+    ],
+    "text": "criteria for those controls not found within 20x (Part B)"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      67.0250015258789,
+      61.43602752685547,
+      256.9219970703125,
+      75.83602905273438
+    ],
+    "text": "▪ GovRAMP Authorized and 20x:"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      103.05000305175781,
+      75.68602752685547,
+      524.5380249023438,
+      90.08602905273438
+    ],
+    "text": "o Tab 6a (Missing 20x NIST – GR Auth) shows the NIST controls that GovRAMP"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      121.05000305175781,
+      90.18602752685547,
+      538.2780151367188,
+      104.58602905273438
+    ],
+    "text": "Authorized covers and 20x does not (based on NIST control mappings found in"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      121.05000305175781,
+      104.70598602294922,
+      254.42201232910156,
+      119.10598754882812
+    ],
+    "text": "the FedRAMP .json file)."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      103.05000305175781,
+      118.95598602294922,
+      488.0280456542969,
+      133.35598754882812
+    ],
+    "text": "o Tab 6b (Surplus 20x NIST – GR Auth) shows the NIST controls that 20x"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      121.05000305175781,
+      133.45599365234375,
+      471.7720031738281,
+      147.85598754882812
+    ],
+    "text": "potentially covers that are not required for GovRAMP Authorized."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      159.75799560546875,
+      253.6959991455078,
+      178.95799255371094
+    ],
+    "text": "Proposed Delta Assessment"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      182.95599365234375,
+      525.2689819335938,
+      197.35598754882812
+    ],
+    "text": "The proposed 20x Delta Assessment is based on the crosswalk analysis of FedRAMP KSI’s"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      197.48602294921875,
+      334.72198486328125,
+      211.88601684570312
+    ],
+    "text": "to NIST to GovRAMP, and includes two components:"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      223.73602294921875,
+      519.0770263671875,
+      238.13601684570312
+    ],
+    "text": "Part A: Aligns the FedRAMP 20x KSIs and NIST guidance based on FedRAMP’s .json file"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      238.23602294921875,
+      100.87200164794922,
+      252.63601684570312
+    ],
+    "text": "mapping."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      264.7559814453125,
+      517.7540893554688,
+      279.1559753417969
+    ],
+    "text": "Part B: Makes recommendations on approach to the missing NIST control requirements"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      279.2560119628906,
+      245.67201232910156,
+      293.656005859375
+    ],
+    "text": "from FedRAMP’s .json file mapping."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      305.2820129394531,
+      491.8520202636719,
+      322.0820007324219
+    ],
+    "text": "Part A – Aligns 20x KSIs and NIST Guidance (FedRAMP .json Mapping)"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      326.2560119628906,
+      520.3970336914062,
+      340.656005859375
+    ],
+    "text": "The table below illustrates how each 20x KSI has been defined, leveraging NIST guidance"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      340.7560119628906,
+      197.15200805664062,
+      355.156005859375
+    ],
+    "text": "and assessment objectives."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      367.0260009765625,
+      501.4371032714844,
+      381.4259948730469
+    ],
+    "text": "Providers will have the option to select their Delta Assessment based on their desired"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      381.5260009765625,
+      523.7210693359375,
+      395.9259948730469
+    ],
+    "text": "GovRAMP verified status (GovRAMP Core, Ready or Authorized). For example, the higher"
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      396.0260009765625,
+      519.0419921875,
+      410.4259948730469
+    ],
+    "text": "the GovRAMP verified status, the more defined KSI guidance and assessment objectives."
+  },
+  {
+    "page": 7,
+    "bbox": [
+      49.025001525878906,
+      422.3059997558594,
+      448.99200439453125,
+      436.70599365234375
+    ],
+    "text": "View Part A proposal in Tabs 4c and 5c of the GR20x Delta Analysis Record."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      61.21202850341797,
+      531.35205078125,
+      78.01203155517578
+    ],
+    "text": "Part B – Outstanding NIST Controls for GovRAMP Baselines (FedRAMP .json"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      77.96202850341797,
+      111.4520034790039,
+      94.76203155517578
+    ],
+    "text": "Mapping)"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      98.93602752685547,
+      531.452880859375,
+      113.33602905273438
+    ],
+    "text": "Some NIST controls were not mapped to FedRAMP 20x KSIs in the FedRAMP .json file and"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      113.45598602294922,
+      504.7480163574219,
+      127.85598754882812
+    ],
+    "text": "are therefore absent in the proposed GovRAMP 20x Delta Assessment (Part A). These"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      127.70598602294922,
+      531.9000244140625,
+      142.10598754882812
+    ],
+    "text": "outstanding NIST controls can be viewed in the GR20x Delta Analysis Record on Tabs 4a, 5a"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      142.20599365234375,
+      216.42201232910156,
+      156.60598754882812
+    ],
+    "text": "and 6a and show the following:"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      168.70599365234375,
+      468.5220031738281,
+      183.10598754882812
+    ],
+    "text": "o 7 missing 20x NIST controls for GovRAMP Core (Moderate impact level)"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      182.95599365234375,
+      482.7720031738281,
+      197.35598754882812
+    ],
+    "text": "o 17 missing 20x NIST controls for GovRAMP Ready (Moderate impact level)"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      197.48602294921875,
+      518.552001953125,
+      211.88601684570312
+    ],
+    "text": "o  120 missing 20x NIST controls for GovRAMP Authorized (Moderate impact level)"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      223.73602294921875,
+      534.0048828125,
+      238.13601684570312
+    ],
+    "text": "GovRAMP proposes the following approach to these outstanding controls and invites your"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      238.23602294921875,
+      103.87200164794922,
+      252.63601684570312
+    ],
+    "text": "feedback."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      264.7559814453125,
+      484.2720031738281,
+      279.1559753417969
+    ],
+    "text": "1.  Evaluate the missing controls based on their MITRE Control Protection Value."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      279.0400085449219,
+      525.3679809570312,
+      293.6920166015625
+    ],
+    "text": "• The GSA FedRAMP PMO’s Threat-Based Controls Scoring study recommended a cut"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      85.0250015258789,
+      293.7560119628906,
+      283.4519958496094,
+      308.156005859375
+    ],
+    "text": "score of 41.772 for control selection."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      308.0400085449219,
+      512.302001953125,
+      322.6920166015625
+    ],
+    "text": "• If the value is less than 41.772, do not include the control in a Delta Assessment."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      322.5400085449219,
+      434.49200439453125,
+      337.1920166015625
+    ],
+    "text": "• If the value is greater than or equal to 41.772, include the control."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      483.0559997558594,
+      289.9519958496094,
+      497.45599365234375
+    ],
+    "text": "Reference: GitHub - GSA/threat-analysis · GitHub"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      509.3260498046875,
+      506.5700378417969,
+      523.72607421875
+    ],
+    "text": "2. Using NIST-related controls information, combine related outstanding controls into"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      523.8260498046875,
+      513.4732055664062,
+      538.22607421875
+    ],
+    "text": "groups (aka a new KSI) and leverage the NIST Assessment Guidance for creating and"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      538.0759887695312,
+      193.90200805664062,
+      552.4760131835938
+    ],
+    "text": "evaluating the new KSI."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      67.0250015258789,
+      552.3599853515625,
+      510.7459411621094,
+      567.011962890625
+    ],
+    "text": "• View an example of this methodology in GR20x Delta Analysis Record applied for"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      85.0250015258789,
+      567.3259887695312,
+      538.5239868164062,
+      581.7260131835938
+    ],
+    "text": "GovRAMP Core in Tab 4c-Sample Core GR KSI and applied for GovRAMP Ready in Tab"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      85.0250015258789,
+      581.8560180664062,
+      226.42201232910156,
+      596.2560424804688
+    ],
+    "text": "5c – Sample Ready GR KSI."
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      608.1060180664062,
+      527.98095703125,
+      622.5060424804688
+    ],
+    "text": "Should this approach be affirmed in the RFC process, staff will complete the analysis for all"
+  },
+  {
+    "page": 9,
+    "bbox": [
+      49.025001525878906,
+      614.4600219726562,
+      236.7100067138672,
+      638.4600219726562
+    ],
+    "text": "verified statuses and impact levels."
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      61.29003143310547,
+      250.7100067138672,
+      85.29003143310547
+    ],
+    "text": "Response Instructions"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      89.43602752685547,
+      530.1771850585938,
+      103.83602905273438
+    ],
+    "text": "GovRAMP welcomes feedback from all stakeholders, including government agencies, cloud"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      103.68602752685547,
+      480.6619873046875,
+      118.08602905273438
+    ],
+    "text": "service providers, assessors, consultants, and industry partners. Responses will be"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      118.20598602294922,
+      532.9490966796875,
+      132.60598754882812
+    ],
+    "text": "summarized and reported in aggregate. Individual respondents and organizations will not be"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      132.70599365234375,
+      511.4570617675781,
+      147.10598754882812
+    ],
+    "text": "identified or attributed. To ensure balanced representation of stakeholder perspectives,"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      146.95599365234375,
+      533.0239868164062,
+      161.35598754882812
+    ],
+    "text": "feedback will be categorized and analyzed by stakeholder group (e.g., government agencies,"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      161.45599365234375,
+      310.9519958496094,
+      175.85598754882812
+    ],
+    "text": "cloud service providers, and 3PAOs/consultants)."
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      187.78802490234375,
+      234.1959991455078,
+      206.98802185058594
+    ],
+    "text": "Submission Requirements"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      210.98602294921875,
+      459.3419189453125,
+      225.38601684570312
+    ],
+    "text": "Responses may be submitted online via a form (preferred method) or emailed to"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      225.48602294921875,
+      141.12200927734375,
+      239.88601684570312
+    ],
+    "text": "rfc@govramp.org."
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      251.73602294921875,
+      294.9519958496094,
+      266.1360168457031
+    ],
+    "text": "Emailed responses must include the following:"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      67.0250015258789,
+      267.5474853515625,
+      74.69400024414062,
+      280.36798095703125
+    ],
+    "text": "•"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      85.0250015258789,
+      266.2559814453125,
+      308.5679931640625,
+      280.6559753417969
+    ],
+    "text": "Subject line: \"RFC for 20x Delta Assessment\""
+  },
+  {
+    "page": 10,
+    "bbox": [
+      67.0250015258789,
+      280.5400085449219,
+      210.15200805664062,
+      295.1920166015625
+    ],
+    "text": "• Following information:"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      295.0400085449219,
+      338.97198486328125,
+      309.6920166015625
+    ],
+    "text": " Organization or government entity name"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      309.7900085449219,
+      252.17201232910156,
+      324.4420166015625
+    ],
+    "text": " Primary point of contact"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      324.2900085449219,
+      196.15200805664062,
+      338.9420166015625
+    ],
+    "text": " Email address"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      339.0400085449219,
+      201.65200805664062,
+      353.6920166015625
+    ],
+    "text": " Phone number"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      353.55999755859375,
+      286.2019958496094,
+      368.2120056152344
+    ],
+    "text": " GovRAMP Member: Yes or No"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      368.30999755859375,
+      334.47198486328125,
+      382.9620056152344
+    ],
+    "text": " What type of entity best describes you?"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      383.0260009765625,
+      538.0298461914062,
+      397.4259948730469
+    ],
+    "text": "▪ Government Entity (Federal, State, Local, K-12, Higher Education, Tribal"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      157.0800018310547,
+      397.5260009765625,
+      258.6719970703125,
+      411.9259948730469
+    ],
+    "text": "Territory or Other)"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      411.7760009765625,
+      237.42201232910156,
+      426.1759948730469
+    ],
+    "text": "▪ Private Sector:"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      175.0800018310547,
+      426.0899963378906,
+      282.4519958496094,
+      440.74200439453125
+    ],
+    "text": "• Service Provider"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      175.0800018310547,
+      440.8399963378906,
+      228.17201232910156,
+      455.49200439453125
+    ],
+    "text": "• 3PAO"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      175.0800018310547,
+      455.3399963378906,
+      253.67201232910156,
+      469.99200439453125
+    ],
+    "text": "• Consultant"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      470.0559997558594,
+      274.9519958496094,
+      484.45599365234375
+    ],
+    "text": "▪ Other (please explain)"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      103.05000305175781,
+      484.3399963378906,
+      224.17201232910156,
+      498.99200439453125
+    ],
+    "text": " If Service Provider:"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      499.0559997558594,
+      337.97198486328125,
+      513.4559936523438
+    ],
+    "text": "▪ Do you have a Rev 5 assessment?"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      513.5760498046875,
+      332.97198486328125,
+      527.97607421875
+    ],
+    "text": "▪ Do you have a 20x Certification?"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      139.0500030517578,
+      527.8259887695312,
+      373.97198486328125,
+      542.2260131835938
+    ],
+    "text": "▪ Are you planning for a 20x Certification?"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      550.1279907226562,
+      212.17599487304688,
+      569.3280029296875
+    ],
+    "text": "Requested Comments:"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      573.5859985351562,
+      518.921142578125,
+      587.9860229492188
+    ],
+    "text": "To facilitate review of all comments received, please provide your comments utilizing the"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      49.025001525878906,
+      588.1060180664062,
+      420.2519836425781,
+      602.5060424804688
+    ],
+    "text": "following format/template. Responses are optional for each question."
+  },
+  {
+    "page": 10,
+    "bbox": [
+      67.0250015258789,
+      614.3560180664062,
+      181.90200805664062,
+      628.7560424804688
+    ],
+    "text": "1. Overall Approach"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      85.0250015258789,
+      628.8560180664062,
+      534.85009765625,
+      643.2560424804688
+    ],
+    "text": "How well does the proposed Delta Assessment approach balance security assurance,"
+  },
+  {
+    "page": 10,
+    "bbox": [
+      85.0250015258789,
+      643.1060180664062,
+      490.2720031738281,
+      657.5060424804688
+    ],
+    "text": "operational efficiency, and the evolving needs of the GovRAMP community?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      67.0250015258789,
+      61.43602752685547,
+      364.72198486328125,
+      75.83602905273438
+    ],
+    "text": "2. Alignment with Government Security Requirements"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      75.68602752685547,
+      522.0769653320312,
+      90.08602905273438
+    ],
+    "text": "Please provide your comments. For example, does the proposed Delta Assessment"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      90.18602752685547,
+      215.42201232910156,
+      104.58602905273438
+    ],
+    "text": "appropriately align with:"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      104.489990234375,
+      484.5220031738281,
+      119.1419906616211
+    ],
+    "text": "• Modern authorization approaches and emerging assessment models;"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      118.989990234375,
+      381.22198486328125,
+      133.64198303222656
+    ],
+    "text": "• Security validation and assurance objectives; and"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      133.739990234375,
+      525.0301513671875,
+      148.39198303222656
+    ],
+    "text": "• Common federal requirements and regulatory frameworks that impact state,"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      148.45599365234375,
+      532.097900390625,
+      162.85598754882812
+    ],
+    "text": "local, tribal, and territorial governments (e.g., FISMA, CJIS, IRS, CMS, SSA, etc."
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      162.95599365234375,
+      265.1719970703125,
+      177.35598754882812
+    ],
+    "text": "and related requirements)?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      67.0250015258789,
+      191.73602294921875,
+      272.9519958496094,
+      206.13601684570312
+    ],
+    "text": "3. Delta Assessment Criteria – Part A"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      205.98602294921875,
+      533.052001953125,
+      220.38601684570312
+    ],
+    "text": "Please provide feedback on the proposed Delta Assessment (Part A) criteria, such as:"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      220.27001953125,
+      429.99200439453125,
+      234.92201232910156
+    ],
+    "text": "• Whether the criteria provide sufficient security assurance;"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      235.02001953125,
+      484.2720031738281,
+      249.67201232910156
+    ],
+    "text": "• Whether the criteria appropriately focus on meaningful security risk;"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      249.52001953125,
+      517.4439697265625,
+      264.1720275878906
+    ],
+    "text": "• Whether the criteria help government agencies make informed compliance"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      264.2559814453125,
+      172.65200805664062,
+      278.6559753417969
+    ],
+    "text": "decisions"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      278.5400085449219,
+      420.74200439453125,
+      293.1920166015625
+    ],
+    "text": "• Any criteria that should be added, modified, or removed."
+  },
+  {
+    "page": 11,
+    "bbox": [
+      67.0250015258789,
+      310.0060119628906,
+      272.7019958496094,
+      324.406005859375
+    ],
+    "text": "4. Delta Assessment Criteria – Part B"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      324.5060119628906,
+      509.1640319824219,
+      338.906005859375
+    ],
+    "text": "Please provide feedback on the proposed approach (Part B) to outstanding NIST"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      338.7560119628906,
+      181.40200805664062,
+      353.156005859375
+    ],
+    "text": "controls, such as:"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      353.05999755859375,
+      289.2019958496094,
+      367.7120056152344
+    ],
+    "text": "• Pros and cons of this approach;"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      367.80999755859375,
+      432.74200439453125,
+      382.4620056152344
+    ],
+    "text": "• Any criteria that should be added, modified or removed; or"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      382.30999755859375,
+      394.99200439453125,
+      396.9620056152344
+    ],
+    "text": "• Alternative approaches to the outstanding controls."
+  },
+  {
+    "page": 11,
+    "bbox": [
+      67.0250015258789,
+      411.5260009765625,
+      302.7019958496094,
+      425.9259948730469
+    ],
+    "text": "5. System Security Plan (SSP) Requirement"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      426.0559997558594,
+      531.4489135742188,
+      440.45599365234375
+    ],
+    "text": "FedRAMP 20x does not require a traditional System Security Plan (SSP) as part of its"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      440.3059997558594,
+      534.6039428710938,
+      454.70599365234375
+    ],
+    "text": "assessment approach. However, NIST SP 800-53 control PL-2 (System Security Plan)"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      454.8059997558594,
+      349.47198486328125,
+      469.20599365234375
+    ],
+    "text": "is a requirement for GovRAMP Authorized status."
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      469.0899963378906,
+      535.5420532226562,
+      483.74200439453125
+    ],
+    "text": "• Should GovRAMP continue to require an SSP for GovRAMP Authorized status"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      483.8059997558594,
+      431.5019836425781,
+      498.20599365234375
+    ],
+    "text": "when evaluating providers assessed under FedRAMP 20x?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      498.0899963378906,
+      520.7818603515625,
+      512.7420043945312
+    ],
+    "text": "• Should SSP requirements differ by GovRAMP status level (Core, Ready, and"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      512.8260498046875,
+      191.15200805664062,
+      527.22607421875
+    ],
+    "text": "Authorized)?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      527.1099853515625,
+      485.2720031738281,
+      541.761962890625
+    ],
+    "text": "• Are there alternative forms of documentation that could satisfy PL-2"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      541.8259887695312,
+      506.23809814453125,
+      556.2260131835938
+    ],
+    "text": "requirements while reducing administrative burden? For example, should"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      556.3259887695312,
+      518.190185546875,
+      570.7260131835938
+    ],
+    "text": "GovRAMP accept OSCAL-formatted components, as satisfying substantive"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      570.5759887695312,
+      224.92201232910156,
+      584.9760131835938
+    ],
+    "text": "objectives of PL-2?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      103.05000305175781,
+      584.8900146484375,
+      530.6941528320312,
+      599.5419921875
+    ],
+    "text": "• What impact would maintaining, modifying, or removing the SSP requirement"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      121.05000305175781,
+      599.6060180664062,
+      503.7720031738281,
+      614.0060424804688
+    ],
+    "text": "have on provider adoption, assessor consistency, and government trust?"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      67.0250015258789,
+      628.6060180664062,
+      343.97198486328125,
+      643.0060424804688
+    ],
+    "text": "6. Annual Penetration Testing Requirement (CA-8)"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      642.8560180664062,
+      518.9332275390625,
+      657.2560424804688
+    ],
+    "text": "FedRAMP 20x does not require annual penetration testing. GovRAMP Authorized"
+  },
+  {
+    "page": 11,
+    "bbox": [
+      85.0250015258789,
+      657.3759765625,
+      515.5419921875,
+      671.7760009765625
+    ],
+    "text": "status currently requires annual penetration testing to satisfy CA-8 requirements."
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      61.22003173828125,
+      483.0541076660156,
+      75.87203216552734
+    ],
+    "text": "• Should GovRAMP continue to require annual penetration testing for"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      75.93602752685547,
+      281.4519958496094,
+      90.33602905273438
+    ],
+    "text": "GovRAMP Authorized status?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      90.22003173828125,
+      534.7919921875,
+      104.87203216552734
+    ],
+    "text": "• If annual penetration testing remains a requirement, should GovRAMP permit:"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      139.0500030517578,
+      104.989990234375,
+      407.99200439453125,
+      119.6419906616211
+    ],
+    "text": " Independent third-party penetration testing; or"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      139.0500030517578,
+      119.489990234375,
+      532.3201293945312,
+      134.14198303222656
+    ],
+    "text": " Internally conducted penetration testing that meets established testing"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      157.0800018310547,
+      134.20599365234375,
+      216.67201232910156,
+      148.60598754882812
+    ],
+    "text": "standards?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      148.489990234375,
+      473.8021545410156,
+      163.14198303222656
+    ],
+    "text": "• If internally conducted penetration testing is permitted, GovRAMP"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      163.20599365234375,
+      517.4620361328125,
+      177.60598754882812
+    ],
+    "text": "recommends adherence to GovRAMP Penetration Testing Guidance. How might"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      177.70599365234375,
+      513.7622680664062,
+      192.10598754882812
+    ],
+    "text": "organizations demonstrate that their internal testing processes and results"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      192.23602294921875,
+      509.4019470214844,
+      206.63601684570312
+    ],
+    "text": "meet the intent and requirements of the guidance? For example, should a"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      206.48602294921875,
+      492.52203369140625,
+      220.88601684570312
+    ],
+    "text": "3PAO review internally conducted penetration tests for adequacy and"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      220.98602294921875,
+      426.24200439453125,
+      235.38601684570312
+    ],
+    "text": "alignment with GovRAMP Penetration Testing Guidance?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      235.27001953125,
+      523.3140869140625,
+      249.92201232910156
+    ],
+    "text": "• Are there alternative approaches that could provide equivalent assurance to"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      249.98602294921875,
+      267.9219970703125,
+      264.3860168457031
+    ],
+    "text": "annual penetration testing?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      67.0250015258789,
+      278.7560119628906,
+      406.99200439453125,
+      293.156005859375
+    ],
+    "text": "7. Supplemental Evidence for SI-3 (Malicious Code Protection)"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      293.2560119628906,
+      506.7720031738281,
+      307.656005859375
+    ],
+    "text": "FedRAMP 20x does not explicitly require supplemental evidence related to SI-3"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      307.5060119628906,
+      502.21710205078125,
+      321.906005859375
+    ],
+    "text": "(Malicious Code Protection). GovRAMP currently requires evidence supporting"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      322.0060119628906,
+      515.7409057617188,
+      336.406005859375
+    ],
+    "text": "malicious code protection capabilities for GovRAMP Core, Ready, and Authorized"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      336.2560119628906,
+      134.12200927734375,
+      350.656005859375
+    ],
+    "text": "statuses."
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      350.55999755859375,
+      498.3519592285156,
+      365.2120056152344
+    ],
+    "text": "• Should SI-3 evidence be included as a required component of the Delta"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      365.5260009765625,
+      498.76202392578125,
+      379.9259948730469
+    ],
+    "text": "Assessment for all GovRAMP verified status, including Core, Ready and"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      379.7760009765625,
+      187.90200805664062,
+      394.1759948730469
+    ],
+    "text": "Authorized?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      394.05999755859375,
+      512.5740356445312,
+      408.7120056152344
+    ],
+    "text": "• Are there alternative methods of validating malicious code protection that"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      408.7760009765625,
+      496.5541076660156,
+      423.1759948730469
+    ],
+    "text": "would provide a comparable level of assurance with less administrative"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      121.05000305175781,
+      423.3059997558594,
+      170.15200805664062,
+      437.70599365234375
+    ],
+    "text": "burden?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      139.0500030517578,
+      437.5899963378906,
+      493.10400390625,
+      452.24200439453125
+    ],
+    "text": " For example, what types of modern cloud-native evidence (e.g.,"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      157.0800018310547,
+      452.3059997558594,
+      528.4800415039062,
+      466.70599365234375
+    ],
+    "text": "container image vulnerability scanning, CI/CD static/dynamic analysis,"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      157.0800018310547,
+      466.8059997558594,
+      490.67205810546875,
+      481.20599365234375
+    ],
+    "text": "eBPF runtime threat detection) adequately satisfy SI-3 without"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      157.0800018310547,
+      481.0559997558594,
+      418.0019836425781,
+      495.45599365234375
+    ],
+    "text": "requiring legacy endpoint anti-virus screenshots?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      67.0250015258789,
+      509.8260498046875,
+      127.87200164794922,
+      524.22607421875
+    ],
+    "text": "8. Impact"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      524.3259887695312,
+      518.0419921875,
+      538.7260131835938
+    ],
+    "text": "How would adoption of the proposed Delta Assessment affect your organization?"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      538.8259887695312,
+      246.67201232910156,
+      553.2260131835938
+    ],
+    "text": "(Please explain your response)"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      553.1099853515625,
+      232.92201232910156,
+      567.761962890625
+    ],
+    "text": "• Significantly Positive"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      567.6099853515625,
+      224.92201232910156,
+      582.261962890625
+    ],
+    "text": "• Somewhat Positive"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      582.1400146484375,
+      237.17201232910156,
+      596.7919921875
+    ],
+    "text": "• No Significant Impact"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      596.8900146484375,
+      230.67201232910156,
+      611.5419921875
+    ],
+    "text": "• Somewhat Negative"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      103.05000305175781,
+      611.3900146484375,
+      238.67201232910156,
+      626.0419921875
+    ],
+    "text": "• Significantly Negative"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      67.0250015258789,
+      640.6060180664062,
+      204.15200805664062,
+      655.0060424804688
+    ],
+    "text": "9. Additional Comments"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      655.1060180664062,
+      470.2491149902344,
+      669.5060424804688
+    ],
+    "text": "Please provide any additional comments, concerns, recommendations, or"
+  },
+  {
+    "page": 12,
+    "bbox": [
+      85.0250015258789,
+      669.6259765625,
+      477.5080261230469,
+      684.0260009765625
+    ],
+    "text": "implementation considerations related to the proposed Delta Assessment."
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      61.43602752685547,
+      536.1770629882812,
+      75.83602905273438
+    ],
+    "text": "Based on stakeholder input, GovRAMP will publish guidance for providers who have already"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      75.68602752685547,
+      527.9451293945312,
+      90.08602905273438
+    ],
+    "text": "completed a 20x certification and for those planning to pursue a 20x certification who also"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      90.18602752685547,
+      347.72198486328125,
+      104.58602905273438
+    ],
+    "text": "wish to achieve or maintain a GovRAMP verified status."
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      116.50798797607422,
+      187.42599487304688,
+      135.70799255371094
+    ],
+    "text": "Response Deadline"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      139.70599365234375,
+      524.1898803710938,
+      154.10598754882812
+    ],
+    "text": "Responses must be received no later than 5:00 p.m. Eastern Time on Friday, December 4,"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      154.20599365234375,
+      82.84700012207031,
+      168.60598754882812
+    ],
+    "text": "2026."
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      180.70599365234375,
+      503.23699951171875,
+      195.10598754882812
+    ],
+    "text": "GovRAMP appreciates your time and thoughtful feedback as we evaluate how best to"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      194.98602294921875,
+      525.0772094726562,
+      209.38601684570312
+    ],
+    "text": "harmonize with emerging federal approaches while maintaining the trust, consistency, and"
+  },
+  {
+    "page": 13,
+    "bbox": [
+      49.025001525878906,
+      201.5900115966797,
+      447.04998779296875,
+      225.5900115966797
+    ],
+    "text": "security assurance that participating governments and providers rely upon."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      49.025001525878906,
+      61.29003143310547,
+      446.0299987792969,
+      85.29003143310547
+    ],
+    "text": "Appendix: Rationale for Proposed Approach"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      49.025001525878906,
+      93.23802947998047,
+      436.0160217285156,
+      112.43802642822266
+    ],
+    "text": "Key Objectives of the proposed 20x Delta Assessment"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      116.489990234375,
+      514.468994140625,
+      131.14198303222656
+    ],
+    "text": "• Allow service providers the flexibility to apply the 20x Delta Assessment for their"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      131.20599365234375,
+      486.78497314453125,
+      145.60598754882812
+    ],
+    "text": "selected GovRAMP verified status of GovRAMP Core, Ready, or Authorized"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      145.70599365234375,
+      161.15200805664062,
+      160.10598754882812
+    ],
+    "text": "environment."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      159.989990234375,
+      529.6131591796875,
+      174.64198303222656
+    ],
+    "text": "• Streamline unnecessary assessment burden and streamline maintenance to maintain"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      174.70599365234375,
+      438.74200439453125,
+      189.10598754882812
+    ],
+    "text": "both a GovRAMP verified status and a FedRAMP 20x certification."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      189.52001953125,
+      522.0050659179688,
+      204.17201232910156
+    ],
+    "text": "• Establish a standardized approach for scoping 20x Key Security Indicators (KSIs) to"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      204.73602294921875,
+      524.4771118164062,
+      219.13601684570312
+    ],
+    "text": "enable consistent and repeatable assessments across organizations. To achieve this"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      219.73602294921875,
+      516.0651245117188,
+      234.13601684570312
+    ],
+    "text": "objective, the proposed Delta Assessment leverages NIST’s published assessment"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      234.73602294921875,
+      138.12200927734375,
+      249.13601684570312
+    ],
+    "text": "guidance."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      249.02001953125,
+      499.3721618652344,
+      263.6720275878906
+    ],
+    "text": "• Support risk-based annual assessment decisions that complement GovRAMP’s"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      85.0250015258789,
+      263.7559814453125,
+      326.9519958496094,
+      278.1559753417969
+    ],
+    "text": "existing continuous monitoring requirements."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      49.025001525878906,
+      286.0580139160156,
+      334.9960021972656,
+      305.25799560546875
+    ],
+    "text": "Benefits of Proposed Delta Assessment"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      49.025001525878906,
+      313.2820129394531,
+      466.8520202636719,
+      330.0820007324219
+    ],
+    "text": "For Service Provider Community Serving All Levels of Government"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      334.0400085449219,
+      216.67201232910156,
+      348.6920166015625
+    ],
+    "text": "• Verify once, serve many"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      103.05000305175781,
+      348.55999755859375,
+      491.5500793457031,
+      363.2120056152344
+    ],
+    "text": " The Delta Assessment enables providers to achieve certification while"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      363.2760009765625,
+      444.7519836425781,
+      377.6759948730469
+    ],
+    "text": "demonstrating NIST compliance important to many agencies."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      392.05999755859375,
+      456.7720031738281,
+      406.7120056152344
+    ],
+    "text": "• Clear guidance for Key Security Indicator (KSI) scoping related to 20x"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      103.05000305175781,
+      406.55999755859375,
+      531.5340576171875,
+      421.2120056152344
+    ],
+    "text": " Eliminates guesswork around agency needs and requirements, providing clear"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      421.5559997558594,
+      518.2861938476562,
+      435.95599365234375
+    ],
+    "text": "scoping guidance for assessment and setting consistent expectations for all"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      436.0559997558594,
+      193.90200805664062,
+      450.45599365234375
+    ],
+    "text": "stakeholders."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      49.025001525878906,
+      462.0820007324219,
+      194.48199462890625,
+      478.8819885253906
+    ],
+    "text": "For Government Users"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      482.8399963378906,
+      390.97198486328125,
+      497.49200439453125
+    ],
+    "text": "• Trust and assurance in reliability of a consistent standard"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      103.05000305175781,
+      497.5899963378906,
+      524.4901733398438,
+      512.2420043945312
+    ],
+    "text": " With common scoping, government users can have confidence in a common"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      512.3260498046875,
+      233.17201232910156,
+      526.72607421875
+    ],
+    "text": "baseline for security."
+  },
+  {
+    "page": 14,
+    "bbox": [
+      67.0250015258789,
+      541.1099853515625,
+      208.40200805664062,
+      555.761962890625
+    ],
+    "text": "• Continuous assurance"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      103.05000305175781,
+      555.6099853515625,
+      519.24609375,
+      570.261962890625
+    ],
+    "text": " The combination of FedRAMP 20x automation and GovRAMP’s centralized"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      570.3259887695312,
+      526.2181396484375,
+      584.7260131835938
+    ],
+    "text": "Program Management Office (PMO) shared services gives government users"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      584.8560180664062,
+      501.3180847167969,
+      599.2560424804688
+    ],
+    "text": "ongoing visibility into security risks, real-time status updates, and timely"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      599.1060180664062,
+      537.5359497070312,
+      613.5060424804688
+    ],
+    "text": "notifications of elevated risk conditions, enabling more informed and proactive"
+  },
+  {
+    "page": 14,
+    "bbox": [
+      121.05000305175781,
+      613.6060180664062,
+      216.92201232910156,
+      628.0060424804688
+    ],
+    "text": "risk management."
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      61.23802947998047,
+      341.7460021972656,
+      80.43802642822266
+    ],
+    "text": "Flexibility Supports Risk-Based Approach"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      84.68602752685547,
+      529.0283203125,
+      99.08602905273438
+    ],
+    "text": "GovRAMP's risk-based approach recognizes that security requirements must align with the"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      98.93602752685547,
+      532.697021484375,
+      113.33602905273438
+    ],
+    "text": "sensitivity of the data being protected. Allowing providers to map to the GovRAMP verified"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      113.45598602294922,
+      493.7339782714844,
+      127.85598754882812
+    ],
+    "text": "status that best fits their services and customer needs, whether it’s GovRAMP Core,"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      127.70598602294922,
+      483.4610595703125,
+      142.10598754882812
+    ],
+    "text": "GovRAMP Ready, or GovRAMP Authorized, promotes flexibility while maintaining"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      142.20599365234375,
+      219.17201232910156,
+      156.60598754882812
+    ],
+    "text": "appropriate security assurance."
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      168.70599365234375,
+      528.6649780273438,
+      183.10598754882812
+    ],
+    "text": "In practice, GovRAMP Core is commonly suited for commercial, public, or internal business"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      182.95599365234375,
+      516.4251708984375,
+      197.35598754882812
+    ],
+    "text": "data; GovRAMP Ready is often appropriate for sensitive or confidential information; and"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      197.48602294921875,
+      487.99200439453125,
+      211.88601684570312
+    ],
+    "text": "GovRAMP Authorized (at low, moderate or high impact level) is intended for highly"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      211.73602294921875,
+      501.784912109375,
+      226.13601684570312
+    ],
+    "text": "regulated data types such as FTI, CJI, SSA, CMS data and other regulated government"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      226.23602294921875,
+      116.37200164794922,
+      240.63601684570312
+    ],
+    "text": "information."
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      252.53802490234375,
+      200.67599487304688,
+      271.7380065917969
+    ],
+    "text": "Why Align with NIST"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      275.7560119628906,
+      510.6620178222656,
+      290.156005859375
+    ],
+    "text": "GovRAMP's proposal to align the 20x Delta Assessment with NIST-based requirements"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      290.2560119628906,
+      534.3771362304688,
+      304.656005859375
+    ],
+    "text": "reflects the reality that NIST remains the foundational cybersecurity framework upon which"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      304.7560119628906,
+      519.7919921875,
+      319.156005859375
+    ],
+    "text": "most government security programs are built. While FedRAMP 20x introduces important"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      319.0060119628906,
+      511.6970520019531,
+      333.406005859375
+    ],
+    "text": "innovations in how security assurance is demonstrated, state, local, tribal, and territorial"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      333.5060119628906,
+      536.9090576171875,
+      347.906005859375
+    ],
+    "text": "(SLTT) governments, as well as many regulatory and procurement programs, continue to rely"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      348.0260009765625,
+      467.2720031738281,
+      362.4259948730469
+    ],
+    "text": "on NIST standards as the common framework for evaluating cybersecurity risk."
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      374.2760009765625,
+      513.2599487304688,
+      388.6759948730469
+    ],
+    "text": "Reference: The following regulations are based on or built on NIST guidance and affect public"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      388.7760009765625,
+      171.15200805664062,
+      403.1759948730469
+    ],
+    "text": "agencies and providers."
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      415.0260009765625,
+      375.97198486328125,
+      429.4259948730469
+    ],
+    "text": "o Federal Information Security Modernization Act FISMA"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      429.5559997558594,
+      531.6361694335938,
+      443.95599365234375
+    ],
+    "text": "o NIST publication FIPS 200, which defines minimum security requirements for Federal"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      85.0250015258789,
+      443.8059997558594,
+      284.2019958496094,
+      458.20599365234375
+    ],
+    "text": "Information and Information Systems"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      458.3059997558594,
+      335.22198486328125,
+      472.70599365234375
+    ],
+    "text": "o U.S. Veterans Affairs Agency July 2026 Memo"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      472.8059997558594,
+      268.6719970703125,
+      487.20599365234375
+    ],
+    "text": "o IRS Publication 1075 (Rev. 12-2026)"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      487.0559997558594,
+      320.4519958496094,
+      501.45599365234375
+    ],
+    "text": "o FBI CJIS Security Policy Resource Center — LE"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      501.5760498046875,
+      497.2620544433594,
+      515.97607421875
+    ],
+    "text": "o SSA Security Information | Data Exchange | SSA  Electronic Information Exchange"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      85.0250015258789,
+      515.8260498046875,
+      508.2530212402344,
+      530.22607421875
+    ],
+    "text": "Security Requirements and Procedures for State and Local Agencies Exchanging"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      85.0250015258789,
+      530.3259887695312,
+      510.18511962890625,
+      544.7260131835938
+    ],
+    "text": "Electronic Information with the Social Security Administration, Technical System"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      85.0250015258789,
+      544.8259887695312,
+      244.67201232910156,
+      559.2260131835938
+    ],
+    "text": "Security Requirements (TSSR)"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      67.0250015258789,
+      559.3259887695312,
+      514.2919921875,
+      573.7260131835938
+    ],
+    "text": "o CMS Medicaid Enterprise Systems (MES) certification process - SMC Guidance.pdf"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      585.3820190429688,
+      376.552001953125,
+      602.1820068359375
+    ],
+    "text": "NIST alignment provides several important benefits:"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      606.3560180664062,
+      364.22198486328125,
+      620.7560424804688
+    ],
+    "text": "Consistency Across Government and Regulatory Programs"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      620.8560180664062,
+      497.405029296875,
+      635.2560424804688
+    ],
+    "text": "NIST security baselines underpin many federal and state cybersecurity requirements,"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      635.1060180664062,
+      530.453125,
+      649.5060424804688
+    ],
+    "text": "creating a common framework for security expectations across jurisdictions. State agencies"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      649.6060180664062,
+      510.24603271484375,
+      664.0060424804688
+    ],
+    "text": "are routinely audited against these requirements. Maintaining a NIST-based foundation"
+  },
+  {
+    "page": 15,
+    "bbox": [
+      49.025001525878906,
+      663.885986328125,
+      510.4011535644531,
+      678.2860107421875
+    ],
+    "text": "aligns GovRAMP with the regulatory environment in which SLTT governments operate."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      61.43602752685547,
+      521.1921997070312,
+      75.83602905273438
+    ],
+    "text": "Simultaneously, NIST provides a well-known, trusted basis for assessing the cloud service"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      75.93602752685547,
+      389.97198486328125,
+      90.33602905273438
+    ],
+    "text": "providers that support regulated and federally funded programs."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      102.18602752685547,
+      538.2698974609375,
+      116.58602905273438
+    ],
+    "text": "For state governments required to comply with NIST-based federal regulatory requirements,"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      116.70598602294922,
+      517.9010620117188,
+      131.10598754882812
+    ],
+    "text": "the inability to demonstrate compliance can have consequences beyond an audit finding."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      130.95599365234375,
+      514.2440185546875,
+      145.35598754882812
+    ],
+    "text": "Depending on the applicable federal program and the nature of the deficiency, potential"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      145.45599365234375,
+      195.65200805664062,
+      159.85598754882812
+    ],
+    "text": "consequences may include:"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      67.0250015258789,
+      171.739990234375,
+      534.6051635742188,
+      186.39198303222656
+    ],
+    "text": "• Federal funding impacts, including funding restrictions, delayed funding, or additional"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      85.0250015258789,
+      186.48602294921875,
+      176.40200805664062,
+      200.88601684570312
+    ],
+    "text": "grant conditions."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      67.0250015258789,
+      200.77001953125,
+      510.9901123046875,
+      215.42201232910156
+    ],
+    "text": "• Increased federal oversight, including high-risk designations, additional reporting"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      85.0250015258789,
+      215.48602294921875,
+      482.5220031738281,
+      229.88601684570312
+    ],
+    "text": "requirements, corrective action plans, and increased administrative burden."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      67.0250015258789,
+      229.77001953125,
+      524.2011108398438,
+      244.42201232910156
+    ],
+    "text": "• Increased state or local oversight, including legislative scrutiny, additional reporting"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      85.0250015258789,
+      244.48602294921875,
+      382.97198486328125,
+      258.8860168457031
+    ],
+    "text": "obligations, administrative burden, and associated costs."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      67.0250015258789,
+      258.77001953125,
+      519.3773803710938,
+      273.4220275878906
+    ],
+    "text": "• Restrictions on federal information sharing, including suspension or termination of"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      85.0250015258789,
+      273.5060119628906,
+      536.280029296875,
+      287.906005859375
+    ],
+    "text": "access to federal data, potentially disrupting mission-critical government services and"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      85.0250015258789,
+      288.0060119628906,
+      227.42201232910156,
+      302.406005859375
+    ],
+    "text": "causing reputational harm."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      314.2560119628906,
+      319.2019958496094,
+      328.656005859375
+    ],
+    "text": "A Common Baseline for Government and Vendors"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      328.7560119628906,
+      533.4530639648438,
+      343.156005859375
+    ],
+    "text": "GovRAMP is designed to provide a centralized verification model that government agencies"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      343.2760009765625,
+      516.6602172851562,
+      357.6759948730469
+    ],
+    "text": "can rely upon when making risk-based decisions. Because participating governments use"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      357.5260009765625,
+      499.41400146484375,
+      371.9259948730469
+    ],
+    "text": "GovRAMP assessments as a shared source of security assurance, a common and well-"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      372.0260009765625,
+      480.27191162109375,
+      386.4259948730469
+    ],
+    "text": "understood baseline is essential. NIST SP 800-53 Rev. 5 provides that baseline by"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      386.2760009765625,
+      498.8692321777344,
+      400.6759948730469
+    ],
+    "text": "establishing standardized security requirements that support consistent assessments,"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      400.7760009765625,
+      524.2880249023438,
+      415.1759948730469
+    ],
+    "text": "comparable results, and trusted risk decisions across jurisdictions. This allows providers to"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      415.2760009765625,
+      516.425048828125,
+      429.6759948730469
+    ],
+    "text": "demonstrate security once and serve many government customers while giving agencies"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      429.8059997558594,
+      280.7019958496094,
+      444.20599365234375
+    ],
+    "text": "confidence in a common level of assurance."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      456.0559997558594,
+      259.9219970703125,
+      470.45599365234375
+    ],
+    "text": "Support for Framework Harmonization"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      470.3059997558594,
+      526.8182373046875,
+      484.70599365234375
+    ],
+    "text": "By maintaining a NIST-aligned foundation while embracing the modernization principles of"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      484.8059997558594,
+      513.7130126953125,
+      499.20599365234375
+    ],
+    "text": "FedRAMP 20x, GovRAMP can reduce duplication and improve interoperability between"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      499.3260192871094,
+      526.3060302734375,
+      513.7260131835938
+    ],
+    "text": "federal and SLTT cybersecurity requirements. This approach enables providers to leverage"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      513.5760498046875,
+      534.2210083007812,
+      527.97607421875
+    ],
+    "text": "work performed for one program to support compliance efforts across multiple government"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      528.0759887695312,
+      517.6132202148438,
+      542.4760131835938
+    ],
+    "text": "markets, reducing administrative burden while preserving trust, assurance, responsibility,"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      542.5759887695312,
+      151.12200927734375,
+      556.9760131835938
+    ],
+    "text": "and accountability."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      568.8359985351562,
+      534.2210083007812,
+      583.2360229492188
+    ],
+    "text": "GovRAMP views NIST alignment as a complementary approach to FedRAMP 20x that helps"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      583.3560180664062,
+      511.91302490234375,
+      597.7560424804688
+    ],
+    "text": "translate emerging federal modernization efforts into a framework that remains broadly"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      597.8560180664062,
+      340.97198486328125,
+      612.2560424804688
+    ],
+    "text": "useful and trusted across the public-sector ecosystem."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      624.1060180664062,
+      502.8412170410156,
+      638.5060424804688
+    ],
+    "text": "The goal is to enable innovation in security assessment while maintaining consistency,"
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      638.6060180664062,
+      403.74200439453125,
+      653.0060424804688
+    ],
+    "text": "transparency, and assurance that government stakeholders expect."
+  },
+  {
+    "page": 16,
+    "bbox": [
+      49.025001525878906,
+      664.823974609375,
+      516.0419921875,
+      679.2760009765625
+    ],
+    "text": "Reference: View October 9th Framework Harmonization Working Group for more background"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      49.025001525878906,
+      61.43602752685547,
+      527.5130004882812,
+      75.83602905273438
+    ],
+    "text": "Community engagement remains central to this effort, and GovRAMP welcomes feedback as it"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      49.025001525878906,
+      75.68602752685547,
+      510.65802001953125,
+      90.08602905273438
+    ],
+    "text": "works to advance a security program that is practical, risk-informed, and trusted across the"
+  },
+  {
+    "page": 17,
+    "bbox": [
+      49.025001525878906,
+      90.18602752685547,
+      174.90200805664062,
+      104.58602905273438
+    ],
+    "text": "public sector ecosystem."
+  }
+]

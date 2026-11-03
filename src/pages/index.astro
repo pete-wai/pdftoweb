@@ -20,7 +20,7 @@ const reports = Object.values(modules) as any[];
           <div class="eyebrow">{report.identifier} <span class="meta-dot">·</span> {report.date}</div>
           <h3><a href={`${base}/reports/${report.slug}/`}>{report.title}</a></h3>
           <p>{report.description}</p>
-          <div class="card-meta">{report.authors.length} authors <span aria-hidden="true">·</span> Continuous reading <span aria-hidden="true">·</span> Original PDF included</div>
+          <div class="card-meta">{report.authors.length} {report.authors.length === 1 ? 'author' : 'authors'} <span aria-hidden="true">·</span> Continuous reading <span aria-hidden="true">·</span> Original PDF included</div>
           <a class="read-link" href={`${base}/reports/${report.slug}/`}>Read the report <span aria-hidden="true">→</span></a>
         </div>
       </article>)}

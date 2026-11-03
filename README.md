@@ -6,6 +6,8 @@ A mobile-first library of full-length reports, converted to continuous, semantic
 
 The first reading edition is *Transition to Post-Quantum Cryptography Standards* (October 2026). This is an independent reading edition, not an official NIST website. The original PDF remains authoritative.
 
+The library also includes *Request for Comments (RFC) GR – 2601: Proposed 20x Delta Assessment* (GovRAMP, November 2026), with both semantic tables and all 17 original page layouts. Its independent fidelity reviews and browser-QA limitation are recorded under `evidence/govramp-rfc-gr-2601/`.
+
 ## Develop
 
 Install [mise](https://mise.jdx.dev/) and [uv](https://docs.astral.sh/uv/), then:

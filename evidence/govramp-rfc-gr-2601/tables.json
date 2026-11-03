@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ksi-mapping",
+    "caption": "Part A – Aligns 20x KSIs and NIST Guidance (FedRAMP .json Mapping)",
+    "pages": [
+      7,
+      8
+    ],
+    "headers": [
+      "20x KSI ID",
+      "GR KSI Guidance",
+      "GR Assessment Objectives"
+    ],
+    "rows": [
+      {
+        "page": 7,
+        "cells": [
+          [
+            "KSI-CNA-EIS"
+          ],
+          [
+            "Indicate if.....",
+            "CA-02(01) - independent assessors or assessment teams are employed to conduct control assessments.",
+            "Indicate if.....",
+            "CA-07(01) - independent assessors or assessment teams are employed to monitor the controls in the system on an ongoing basis."
+          ],
+          [
+            "Determine if.....",
+            "CA-02(01) - independent assessors or assessment teams are employed to conduct control assessments.",
+            "Determine if.....",
+            "CA-07(01) - independent assessors or assessment teams are employed to monitor the controls in the system on an ongoing basis."
+          ]
+        ]
+      },
+      {
+        "page": 8,
+        "cells": [
+          [
+            "KSI-CNA-IBP"
+          ],
+          [
+            "Indicate if.....",
+            "AC-17(03) - remote accesses are routed through authorized and managed network access control points.",
+            "Indicate if.....",
+            "CM-02a.[01] - a current baseline configuration of the system is developed and documented;",
+            "CM-02a.[02] - a current baseline configuration of the system is maintained under configuration control;",
+            "CM-02b.01 - the baseline configuration of the system is reviewed and updated [the frequency of baseline configuration review and update is defined;];",
+            "CM-02b.02 - the baseline configuration of the system is reviewed and updated when required due to [the circumstances requiring baseline configuration review and update are defined;];",
+            "CM-02b.03 - the baseline configuration of the system is reviewed and updated when system components are installed or upgraded.",
+            "Indicate if.....",
+            "PL-10 - a control baseline for the system is selected."
+          ],
+          [
+            "Determine if.....",
+            "AC-17(03) - remote accesses are routed through authorized and managed network access control points.",
+            "Determine if.....",
+            "CM-02a.[01] - a current baseline configuration of the system is developed and documented;",
+            "CM-02a.[02] - a current baseline configuration of the system is maintained under configuration control;",
+            "CM-02b.01 - the baseline configuration of the system is reviewed and updated [the frequency of baseline configuration review and update is defined;];",
+            "CM-02b.02 - the baseline configuration of the system is reviewed and updated when required due to [the circumstances requiring baseline configuration review and update are defined;];",
+            "CM-02b.03 - the baseline configuration of the system is reviewed and updated when system components are installed or upgraded.",
+            "Determine if.....",
+            "PL-10 - a control baseline for the system is selected."
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "outstanding-controls",
+    "caption": "GovRAMP Verified Status (Moderate Impact Level)",
+    "pages": [
+      9
+    ],
+    "headers": [
+      "GovRAMP Verified Status (Moderate Impact Level)",
+      "# of Controls Not Mapped to a KSI",
+      "# of Controls > or = 41.772",
+      "# of Controls < 41.772"
+    ],
+    "rows": [
+      {
+        "page": 9,
+        "cells": [
+          [
+            "Core"
+          ],
+          [
+            "7"
+          ],
+          [
+            "4"
+          ],
+          [
+            "3"
+          ]
+        ]
+      },
+      {
+        "page": 9,
+        "cells": [
+          [
+            "Ready"
+          ],
+          [
+            "17"
+          ],
+          [
+            "4"
+          ],
+          [
+            "3"
+          ]
+        ]
+      },
+      {
+        "page": 9,
+        "cells": [
+          [
+            "Authorized"
+          ],
+          [
+            "120"
+          ],
+          [
+            "24"
+          ],
+          [
+            "96"
+          ]
+        ]
+      }
+    ]
+  }
+]

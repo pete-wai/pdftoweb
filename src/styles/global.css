@@ -1260,3 +1260,24 @@ button {
     display: none;
   }
 }
+
+/* Publication artwork stays separate from the library's own identity. */
+.source-publication {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+}
+.source-logo {
+  display: block;
+  width: 15rem;
+  padding: 0.5rem;
+  background: white;
+  margin-bottom: 1.5rem;
+}
+.source-facsimiles details {
+  border-bottom: 1px solid var(--line);
+  padding: 0.8rem 0;
+}
+.source-facsimiles summary { padding: 0.35rem 0; }
+.source-facsimiles img { display: block; border: 1px solid var(--line); }
+.source-facsimiles figure > a { display: block; margin-top: 0.75rem; }
