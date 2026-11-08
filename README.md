@@ -2,7 +2,7 @@
 
 A mobile-first library of full-length reports, converted to continuous, semantic HTML.
 
-**[Read the library](https://pete-wai.github.io/pdftoweb/)** · **[NIST IR 8547](https://pete-wai.github.io/pdftoweb/reports/nist-ir-8547/)**
+**[Read the library](https://pwai.dev/pdftoweb/)** · **[NIST IR 8547](https://pwai.dev/pdftoweb/reports/nist-ir-8547/)**
 
 The first reading edition is *Transition to Post-Quantum Cryptography Standards* (October 2026). This is an independent reading edition, not an official NIST website. The original PDF remains authoritative.
 
