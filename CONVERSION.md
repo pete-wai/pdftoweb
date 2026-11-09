@@ -52,3 +52,22 @@ Source: user-supplied `GovRAMP - Request for Comments (RFC) GR - 2601.pdf`, Nove
 Independent `gpt-6-luna` prose and table/graphics reviews are retained under `evidence/govramp-rfc-gr-2601/`. The initial prose review caught an importer bullet-regex bug; this was corrected and reviewed again. The table reviewer independently confirmed every cell and pixel-compared all 17 delivered page images with source renders. `scripts/check-govramp-source.py` compares the full ordered body prose (24,203 non-whitespace characters), every table cell, list numbering, source URI coverage, and image structure against the PDF. This comparison runs from the shared verifier. The original NIST checks remain unchanged.
 
 Browser interaction QA is unavailable in this session because local browser use is disabled in Work settings. Phone portrait, 200% text, both theme modes, keyboard expansion, and interactive search therefore remain unverified for this import; see `evidence/govramp-rfc-gr-2601/ui-review.md`. Static HTML, built-text equality, anchor/link integrity, accessible table structure, and search-index generation are verified. Publication was authorized by the user on November 3, 2026, with this browser-QA limitation disclosed.
+
+# Hegseth articles of impeachment conversion record
+
+Source: user-supplied `hegseth_articles_of_impeachment.pdf`, received November 9, 2026. The unchanged 34-page original is retained at `public/sources/hegseth-articles-of-impeachment.pdf`. The publication itself is undated and leaves its resolution number blank (`H. RES. __`); neither is inferred from the PDF metadata. “Mr. MASSIE” is the introducer named in the source. This reading edition makes no claim that the supplied resolution was officially introduced, adopted, or authenticated. No explicit reuse license appears in the supplied document; no new rights over its text are asserted.
+
+## Layout transformations
+
+- Reproduce using `uv run --locked python scripts/convert-hegseth.py`; the NIST and GovRAMP importers remain separate.
+- All substantive text remains in source order, including repeated title text, the signature placeholder label, every allegation, and all dates, punctuation, and citations. Only whitespace and printed line wraps normalize. No claims are verified or editorially corrected.
+- The dotted signature rule and running footer page numerals are omitted. The original PDF preserves those layout elements.
+- Adjacent title lines and continued paragraphs are joined. Source hyphens remain, including hyphens at line endings. Source bold and italic spans are retained semantically.
+- Eight article headings become linked semantic headings. Numbered clauses become nested ordered lists with literal source labels retained and browser markers suppressed. Source-page mappings include every page contributing to a continued block.
+- The PDF contains no tables, footnotes, or explanatory figures; review findings are retained under `evidence/hegseth-articles-of-impeachment/`.
+
+## Verification
+
+The independent checker compares all 56,861 non-whitespace source characters and all 10,170 whitespace-separated tokens in order, verifies all eight article headings and all 34 source-page mappings, and checks the original PDF checksum. Shared checks cover built-text equality and every local link/anchor. Independent Luna prose and tables/layout reviews are retained beside the page extraction and block mappings. Approved hashes are added only after findings are resolved.
+
+Browser access was unavailable in this session (no enabled browser; Chrome reported unavailable). Interactive phone portrait, 200% text, theme switching, keyboard navigation, and search behavior could not be exercised. The existing shared reader styles and interactions are unchanged; static structure, anchors, no-JavaScript prose, build output, and search index generation are checked. See the UI review record for details.

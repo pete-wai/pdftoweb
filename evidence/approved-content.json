@@ -23,5 +23,9 @@
   "public/figures/govramp-rfc-gr-2601/page-14.png": "789c97a7babbec74e086040f0ef7ddfb0a16617b9e8740fd37bf2229d4ed421a",
   "public/figures/govramp-rfc-gr-2601/page-15.png": "c3577b4d3906397f42f073268bab305b741d856e8ced23af08b853c88907f586",
   "public/figures/govramp-rfc-gr-2601/page-16.png": "fd0b7775dfe085e11027a60d81947500d02fd0f5d557bb5a963e3aba3e4daa78",
-  "public/figures/govramp-rfc-gr-2601/page-17.png": "3547c325422a14a6c87d548bbda8fd4aa14168ad76e55f3c2b0d77c72de2fe72"
+  "public/figures/govramp-rfc-gr-2601/page-17.png": "3547c325422a14a6c87d548bbda8fd4aa14168ad76e55f3c2b0d77c72de2fe72",
+  "public/sources/hegseth-articles-of-impeachment.pdf": "d232f6c4be7cd4bd90b7115086d7030d56829166063b189eee912abb294469dc",
+  "src/content/reports/hegseth-articles-of-impeachment.json": "172500fb1d2bbfe78b2a6c135f358beafd3355dc5d4dc8213aa36046198ba09c",
+  "evidence/hegseth-articles-of-impeachment/source-pages.json": "5dee00a819b7b480a261b283c3c533ddf31df411b71a5d13ce5c6fcb4450f2ac",
+  "evidence/hegseth-articles-of-impeachment/block-map.json": "e8af1ad80e71b2875a56e0ce732e3dfdd0c7050e33b5c2182388e74a1c3cd2f6"
 }

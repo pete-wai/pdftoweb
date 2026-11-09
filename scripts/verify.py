@@ -9,6 +9,7 @@ for name,digest in manifest.items():
  assert hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest,f'Approved source changed: {name}; re-review before updating baseline'
 subprocess.run([sys.executable,str(ROOT/'scripts/check-source.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check-govramp-source.py')],check=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/check-hegseth-source.py')],check=True)
 for file in (ROOT/'src/content/reports').glob('*.json'):
  report=json.loads(file.read_text());soup=BeautifulSoup(report['html'],'html.parser')
  required=['slug','title','identifier','authors','date','sourceUrl','sourceSha256','pdfPath','description','headings','html']

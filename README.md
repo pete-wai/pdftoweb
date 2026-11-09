@@ -76,3 +76,5 @@ To change hosting later, update Astro's `site`/`base` settings and source-PDF li
 ## Source rights
 
 The report is attributed to NIST and retains its publication notices. Site code does not assert new rights over the source publication. See the source PDF's Copyright, Use, and Licensing Statements for the original terms.
+
+The library also includes the user-supplied, undated *Impeaching Peter Brian Hegseth, Secretary of Defense, for high crimes and misdemeanors.* resolution, with all eight articles and its original 34-page PDF. Source mappings, independent fidelity reviews, and the browser-QA limitation are recorded under `evidence/hegseth-articles-of-impeachment/`.
