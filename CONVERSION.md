@@ -71,3 +71,15 @@ Source: user-supplied `hegseth_articles_of_impeachment.pdf`, received November 9
 The independent checker compares all 56,861 non-whitespace source characters and all 10,170 whitespace-separated tokens in order, verifies all eight article headings and all 34 source-page mappings, and checks the original PDF checksum. Shared checks cover built-text equality and every local link/anchor. Independent Luna prose and tables/layout reviews are retained beside the page extraction and block mappings. Approved hashes are added only after findings are resolved.
 
 Browser access was unavailable in this session (no enabled browser; Chrome reported unavailable). Interactive phone portrait, 200% text, theme switching, keyboard navigation, and search behavior could not be exercised. The existing shared reader styles and interactions are unchanged; static structure, anchors, no-JavaScript prose, build output, and search index generation are checked. See the UI review record for details.
+
+# ARTEX expedited strategy briefing
+
+The supplied draft of *The Third Wave: ARTEX and Agentic Offensive Frameworks (AOFs)* prints version 0.8 and an original release date of 24 November, 2026. The attachment filename ends in 0.81. The reading edition uses the printed version. The original PDF is retained at `public/sources/cisos-artex.pdf`. The cover links to the publisher, and the page 4 notice identifies the CC BY-NC 4.0 license.
+
+Reproduce with `uv run --locked python scripts/convert-artex.py`. Physical page numbers appear in the HTML as `data-source-page` on prose blocks and table rows. The two-column pages read down the left column first. Three paragraphs continue across a gutter. The edition rejoins line wraps, consolidates hyperlink rectangles and omits running footers, decorative icons, and background artwork. On page 7 the visible numeral in “1. Hardened Defenses” is restored from the rendered page. Section and table headings use the text layer’s casing.
+
+At the requester’s direction, the reading edition omits the lead authors, authors and contributors on pages 2–4. The collective cover byline is available under Attribution. The publication notices from page 4 and the credits in the bibliography are retained.
+
+The side-by-side table on page 9 has three rows. The risk register spans pages 15–17 and the controls list spans pages 18–20. Numbered row headers, explicit header associations, and keyboard-scrollable wrappers preserve relationships within the three tables. Page 15's severity legend uses a definition list. Table 2's caption includes the introductory note in printed order.
+
+Independent GPT-6.2 Sol prose and table review records and Chromium browser checks are under `evidence/cisos-artex/`. The requester approved this reviewer substitution.

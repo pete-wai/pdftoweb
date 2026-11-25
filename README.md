@@ -78,3 +78,5 @@ To change hosting later, update Astro's `site`/`base` settings and source-PDF li
 The report is attributed to NIST and retains its publication notices. Site code does not assert new rights over the source publication. See the source PDF's Copyright, Use, and Licensing Statements for the original terms.
 
 The library also includes the user-supplied, undated *Impeaching Peter Brian Hegseth, Secretary of Defense, for high crimes and misdemeanors.* resolution, with all eight articles and its original 34-page PDF. Source mappings, independent fidelity reviews, and the browser-QA limitation are recorded under `evidence/hegseth-articles-of-impeachment/`.
+
+[*The Third Wave: ARTEX and Agentic Offensive Frameworks (AOFs)*](https://pwai.dev/pdftoweb/reports/cisos-artex/) is a 26-page draft strategy briefing dated 24 November 2026. Its reading edition includes the full risk register and controls list. The original PDF, source-page mappings, and independent reviews are retained.

@@ -10,6 +10,8 @@ for name,digest in manifest.items():
 subprocess.run([sys.executable,str(ROOT/'scripts/check-source.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check-govramp-source.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check-hegseth-source.py')],check=True)
+subprocess.run([sys.executable,str(ROOT/'evidence/cisos-artex/check-prose.py')],check=True)
+subprocess.run([sys.executable,str(ROOT/'scripts/check-artex-tables.py')],check=True)
 for file in (ROOT/'src/content/reports').glob('*.json'):
  report=json.loads(file.read_text());soup=BeautifulSoup(report['html'],'html.parser')
  required=['slug','title','identifier','authors','date','sourceUrl','sourceSha256','pdfPath','description','headings','html']
