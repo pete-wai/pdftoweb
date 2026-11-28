@@ -12,6 +12,8 @@ subprocess.run([sys.executable,str(ROOT/'scripts/check-govramp-source.py')],chec
 subprocess.run([sys.executable,str(ROOT/'scripts/check-hegseth-source.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'evidence/cisos-artex/check-prose.py')],check=True)
 subprocess.run([sys.executable,str(ROOT/'scripts/check-artex-tables.py')],check=True)
+for checker in ('check-sp800144.py','check-53a-prose.py','check-53a-tables.py'):
+ subprocess.run([sys.executable,str(ROOT/'scripts'/checker)],check=True)
 for file in (ROOT/'src/content/reports').glob('*.json'):
  report=json.loads(file.read_text());soup=BeautifulSoup(report['html'],'html.parser')
  required=['slug','title','identifier','authors','date','sourceUrl','sourceSha256','pdfPath','description','headings','html']
@@ -35,7 +37,12 @@ for file in (ROOT/'src/content/reports').glob('*.json'):
   normalize=lambda s:''.join(s.get_text().split())
   assert normalize(actual)==normalize(soup),'Built report differs from approved content'
 if (ROOT/'dist').exists():
- for file in (ROOT/'dist').rglob('*.html'):
+ anchors = {}
+ files = list((ROOT/'dist').rglob('*.html'))
+ for file in files:
+  page = BeautifulSoup(file.read_text(),'html.parser')
+  anchors[file.resolve()] = {n['id'] for n in page.select('[id]')}
+ for file in files:
   soup=BeautifulSoup(file.read_text(),'html.parser')
   ids=[n['id'] for n in soup.select('[id]')];assert len(ids)==len(set(ids)),f'Duplicate built IDs: {file}'
   for node in soup.select('[href],[src]'):
@@ -49,6 +56,5 @@ if (ROOT/'dist').exists():
    if target.is_dir():target=target/'index.html'
    assert target.exists(),f'Broken local link {raw} in {file}'
    if url.fragment and target.suffix=='.html':
-    dest=BeautifulSoup(target.read_text(),'html.parser')
-    assert dest.find(id=unquote(url.fragment)),f'Broken fragment {raw}'
+    assert unquote(url.fragment) in anchors[target.resolve()],f'Broken fragment {raw}'
 print('PASS: approved source/content hashes, source inventory, tables, glossary, references, footnotes, build text and local links.')

@@ -52,7 +52,7 @@ Node and pnpm are pinned in `.mise.toml`; Python is pinned in `.python-version`.
 ```
 
 4. Use semantic headings with stable IDs, real lists, `<dl>` glossary entries, linked references and return links for notes. Place tables in `.table-figure > .table-scroll > table`; provide captions, column headers, and explicit header associations for merged cells. Use `tabindex="0"`, `role="region"`, and a caption-based label on scroll wrappers. Images need meaningful alternative text and responsive sizing; the shared reader adds expansion controls automatically. Only trusted, reviewed HTML belongs in report JSON.
-5. Preserve substantive source content verbatim. Record layout-only transformations. Independently review prose and every table against the PDF using Luna subagents, resolve findings, and retain reports under `evidence/`. Character inventories help detect loss but do not prove correct order or meaning; visual and independent reviews are required.
+5. Preserve substantive source content verbatim. Record layout-only transformations. Independently review prose and every table against the PDF using separate subagents on the latest available Terra model (currently `gpt-6.1-terra`), resolve findings, and retain reports under `evidence/`. Character inventories help detect loss but do not prove correct order or meaning; visual and independent reviews are required.
 6. Add source and content files to `evidence/approved-content.json` using SHA-256 hashes **after** review. Add report-specific source comparisons and structural checks to the validation scripts; do not merely update a baseline to silence a failing check.
 7. Build and verify. Test phone portrait widths, enlarged text, themes, keyboard interaction, figure expansion, search filters, and every internal link. The library and search discover new report JSON automatically.
 8. Commit and push to `main`. GitHub Actions validates and deploys to Pages. Exceptionally long reports should only be split after an explicit editorial decision; continuous reading is the default.
@@ -62,7 +62,7 @@ Node and pnpm are pinned in `.mise.toml`; Python is pinned in `.python-version`.
 - Original source: `public/sources/nist-ir-8547.pdf`.
 - Original text by physical PDF page: `evidence/source-pages.json`.
 - Curated, visually checked table cells: `evidence/tables.json`; generator: `scripts/tables.py`.
-- Block mapping, independent Luna review findings, and browser QA: `evidence/`.
+- Block mapping, independent review findings, and browser QA: `evidence/`.
 - Layout transformations and known source quirks: [CONVERSION.md](CONVERSION.md).
 
 To reproduce this conversion, run `uv run --locked python scripts/tables.py` and `uv run --locked python scripts/convert.py`. Inspect diffs and run the checks before accepting any changes.
@@ -80,3 +80,10 @@ The report is attributed to NIST and retains its publication notices. Site code 
 The library also includes the user-supplied, undated *Impeaching Peter Brian Hegseth, Secretary of Defense, for high crimes and misdemeanors.* resolution, with all eight articles and its original 34-page PDF. Source mappings, independent fidelity reviews, and the browser-QA limitation are recorded under `evidence/hegseth-articles-of-impeachment/`.
 
 [*The Third Wave: ARTEX and Agentic Offensive Frameworks (AOFs)*](https://pwai.dev/pdftoweb/reports/cisos-artex/) is a 26-page draft strategy briefing dated 24 November 2026. Its reading edition includes the full risk register and controls list. The original PDF, source-page mappings, and independent reviews are retained.
+
+The library includes two NIST reading editions from the supplied publications.
+
+- [NIST SP 800-144](public/sources/nist-sp-800-144.pdf), *Guidelines on Security and Privacy in Public Cloud Computing*, December 2011.
+- [NIST SP 800-53A Rev. 5](public/sources/nist-sp-800-53a-r5.pdf), *Assessing Security and Privacy Controls in Information Systems and Organizations*, January 2022. The catalog and appendices share one continuous reading page.
+
+The [conversion record](CONVERSION.md) describes the source mappings, figure transcriptions, and verification. Original PDFs and independent Terra reviews are retained for both editions.

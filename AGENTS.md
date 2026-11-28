@@ -2,7 +2,7 @@
 
 - Preserve source publication content verbatim. Only layout and formatting may change; never silently correct source typos, numbers, dates, punctuation, or standards references.
 - Keep original PDFs and source checksums. Record permitted layout transformations and source-page mappings.
-- Use independent `gpt-6-luna` subagents for prose and table fidelity review of each new conversion, and retain findings under `evidence/`. Resolve findings before updating approved-content hashes.
+- Use separate, independent subagents on the latest available Terra model (currently `gpt-6.1-terra`) for prose and table fidelity review of each new conversion, and record the exact reviewer model and findings under `evidence/`. Resolve findings before updating approved-content hashes.
 - Read README.md and CONVERSION.md before adding reports. New imports must not overwrite the NIST-specific converter.
 - Use exact runtime pins: `mise exec -- ...`, `uv run --locked ...`, project-local `.venv`. Preserve lockfiles.
 - Build with `mise exec -- pnpm build`, then validate with `uv run --locked python scripts/verify.py`. For content edits, independently compare with the source before updating verification baselines.

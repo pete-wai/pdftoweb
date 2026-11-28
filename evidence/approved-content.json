@@ -29,5 +29,22 @@
   "evidence/hegseth-articles-of-impeachment/source-pages.json": "5dee00a819b7b480a261b283c3c533ddf31df411b71a5d13ce5c6fcb4450f2ac",
   "evidence/hegseth-articles-of-impeachment/block-map.json": "e8af1ad80e71b2875a56e0ce732e3dfdd0c7050e33b5c2182388e74a1c3cd2f6",
   "public/sources/cisos-artex.pdf": "047629ce6dd20670fadf71f17919052281b4e63d2f938e594c8505c1c5feced1",
-  "src/content/reports/cisos-artex.json": "af0415e1347f5f5b160dd34df435910a967e0b516eeda17104a009b745c0e5fd"
+  "src/content/reports/cisos-artex.json": "af0415e1347f5f5b160dd34df435910a967e0b516eeda17104a009b745c0e5fd",
+  "public/sources/nist-sp-800-144.pdf": "47f0fdf31f4f2b37fb2a8fa0bf77235aad0b3daa74a6397603a619a839500a42",
+  "src/content/reports/nist-sp-800-144.json": "4c0e5ed5fffcbfeba325f30ea2942925552dac8fc9fcb5b922e37928712e1605",
+  "evidence/nist-sp-800-144/source-pages.json": "3a7f505e00ef1736a5aa4baa8a6217a9ede49cbd052f9d59d1e39e5265d694cd",
+  "public/figures/nist-sp-800-144/page-1.png": "e9d814e28640f747f4f04177d31d545d67d020f4b93336623a127194ac85f341",
+  "public/figures/nist-sp-800-144/page-15.png": "399f3ae63b5541647ced5d7341e5a8bfc3e31942c8e389d995f484666e3ad1a7",
+  "public/sources/nist-sp-800-53a-r5.pdf": "75665570048b969ad465a4f4f1db425ce505c374951c2c64e462949c6b21be47",
+  "src/content/reports/nist-sp-800-53a-r5.json": "b521e6c09ae35109b9f5f1366053294a5e294864cf17911051d4d3825a2e4bc0",
+  "evidence/nist-sp-800-53a-r5/source-pages.json": "86d3fb979b54e2444ae25d8f6f64481c5d538e3e3b51682809a91468978aead1",
+  "public/figures/nist-sp-800-53a-r5/figure-1.png": "6e7ea5e430fba5ab97071762b24a3bdb21595629bc41c7c436d76d3973d7beac",
+  "public/figures/nist-sp-800-53a-r5/figure-2.png": "100bd50bfc4fae9c6ecf39c64abefb09ce63b5b8e897ad7f98b12293e5366267",
+  "public/figures/nist-sp-800-53a-r5/figure-3.png": "3d5eda99cb729be5e23cb265fecd2eafaad9f1a5b002b72d8d027f1700fcc283",
+  "public/figures/nist-sp-800-53a-r5/figure-4.png": "c847722897e3e903aa9e477ffd37c81a45dd36c4024897742749d71792e7bb13",
+  "public/figures/nist-sp-800-53a-r5/figure-5.png": "f0db54343d5d6e405a11a767cdba2eb9396fafcf54f890a0c73582166ddef0e1",
+  "public/figures/nist-sp-800-53a-r5/figure-6.png": "91300fd9aa79a6eb398a2effd315dfc989d543454e2aa00bf3593b8fa3e53e0a",
+  "public/figures/nist-sp-800-53a-r5/figure-7.png": "25e9ed294d4c33a4dd13e5f713e8e779a7bce3bbb3ab7f30e01fda1422d3ec54",
+  "public/figures/nist-sp-800-53a-r5/figure-8.png": "3e2a763cc429907092125368bbc633648e0d4478995ac59c9a6cd74ee7cfb599",
+  "public/figures/nist-sp-800-53a-r5/figure-9.png": "6468f97480c5a6c7b4b5ec6c40ea5e84be01ba252a02cb23ffc35d1a9dc00083"
 }

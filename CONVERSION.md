@@ -83,3 +83,23 @@ At the requester’s direction, the reading edition omits the lead authors, auth
 The side-by-side table on page 9 has three rows. The risk register spans pages 15–17 and the controls list spans pages 18–20. Numbered row headers, explicit header associations, and keyboard-scrollable wrappers preserve relationships within the three tables. Page 15's severity legend uses a definition list. Table 2's caption includes the introductory note in printed order.
 
 Independent GPT-6.2 Sol prose and table review records and Chromium browser checks are under `evidence/cisos-artex/`. The requester approved this reviewer substitution.
+
+# NIST SP 800-144
+
+Wayne Jansen and Timothy Grance’s *Guidelines on Security and Privacy in Public Cloud Computing* is dated December 2011. The edition retains both covers, the front matter, seven numbered sections, and both appendices from the [80-page NIST PDF](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-144.pdf). Attribution and commercial-product notices remain in the text.
+
+Reproduce with `uv run --locked python scripts/convert-sp800144.py`. The importer uses the PDF’s ordered structure tree, normalizes line wrapping, omits page numbers and dot leaders, and joins continued paragraphs and list items. Webdings and Wingdings list markers become native bullets. The unnumbered publication and resources tables have editorial accessibility captions. Table 1 spans physical pages 45–46 and retains one copy of the column headings. The diagram and the cover branding come from the embedded PDF images. The 27 page-bottom notes become linked endnotes. Reference labels retain their original spelling. Two source-page attributes can occur in one paragraph when it crosses a physical page boundary.
+
+The original source hash is in the report metadata. The page extraction, independent Terra prose and table reviews, and Chromium phone-portrait checks are in `evidence/nist-sp-800-144/`. The source checker compares character inventories by physical page and checks table count, acronym pairs, and both directions of the note links.
+
+# NIST SP 800-53A Revision 5
+
+The edition follows the [733-page January 2022 NIST PDF](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53Ar5.pdf) supplied by the requester. Joint Task Force is the printed author. The original publication, including its attribution, patent, copyright, and commercial-product notices, is retained. The web edition uses the content of this PDF, including its printed examples and control identifiers.
+
+Reproduce with `uv run --locked python scripts/convert-sp80053a.py`. The importer uses the tagged structure of the front matter, chapters and appendices. In the catalog on physical pages 51–694 the horizontal rules define the rows. Each identifier is associated with its printed value, and control titles repeated at a page break remain in the edition. Private-use glyphs and ligatures are decoded by embedded font face. Running headers, rotated margin notices, repeated catalog footers, page numbers and dotted contents leaders are omitted. The source PDF retains these elements. The contents, chapters and all 20 control families have anchors, and the catalog remains on the same page as the introductory chapters, references and six appendices.
+
+The HTML carries physical page mappings, including continuations. The figures retain their original artwork and have native text disclosures. Figure 8’s disclosure describes the arrows and groups the text by phase. Figure 9 associates each finding and assessor comment with its objective. The visible source spelling “foreach” remains in Figure 1. Editorial captions label otherwise untitled tables. Footnotes 1–65 have linked return paths. Several Word structure tags placed text following a footnote call in the wrong position. Those paragraphs were reconstructed from the printed lines, including the bullet that continues the list on page 14.
+
+The complete page extraction and separate `gpt-6.1-terra` review records are in `evidence/nist-sp-800-53a-r5/`. The report JSON records the SHA-256 of the unmodified source. Browser checks use a 390-pixel Chromium phone viewport, both themes, 200% text, and JavaScript-disabled reading.
+
+For SP 800-53A, the verifier also compares the character inventory of each of the 89 physical pages outside the catalog and the printed text immediately surrounding each footnote call. All 65 calls match their source context. The catalog review compares all 7,104 keyed rows and the ordered text on each of the 644 catalog pages.
