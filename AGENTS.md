@@ -8,3 +8,4 @@
 - Build with `mise exec -- pnpm build`, then validate with `uv run --locked python scripts/verify.py`. For content edits, independently compare with the source before updating verification baselines.
 - Preserve `/pdftoweb/` base-path compatibility, continuous reading, no-JavaScript prose, relative font sizes, both color modes, and phone portrait usability.
 - Test tables, footnotes, internal anchors, search, and 200% text on narrow screens. Never publish QA fixture reports.
+- A request to convert a publication also authorizes publishing its reading edition. Once the required reviews and checks pass, push the conversion to main, monitor the Pages deployment, and verify the live report. Honor any request to keep a conversion local or in draft.
