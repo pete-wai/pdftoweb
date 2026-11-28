@@ -1,8 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+import libraryOrder from '../content/library-order.json';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const modules = import.meta.glob('../content/reports/*.json', { eager: true, import: 'default' });
-const reports = Object.values(modules) as any[];
+const bySlug = new Map(Object.values(modules).map((report: any) => [report.slug, report]));
+const reports = libraryOrder.map(slug => {
+  const report = bySlug.get(slug);
+  if (!report) throw new Error(`Unknown or repeated library entry: ${slug}`);
+  bySlug.delete(slug);
+  return report;
+});
+if (bySlug.size) throw new Error(`Add new editions to the top of library-order.json: ${[...bySlug.keys()].join(', ')}`);
 ---
 <Base title="The reading library">
   <main id="main" class="library-main">
